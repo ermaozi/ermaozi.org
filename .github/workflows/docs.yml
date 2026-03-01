@@ -1,0 +1,48 @@
+name: build-and-deploy
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      TARGET_BRANCH: gh-pages
+      BUILD_DIR: dist
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build Astro site
+        run: pnpm build
+
+      - name: Deploy build output to target branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          publish_branch: ${{ env.TARGET_BRANCH }}
+          publish_dir: ./${{ env.BUILD_DIR }}
+          force_orphan: true

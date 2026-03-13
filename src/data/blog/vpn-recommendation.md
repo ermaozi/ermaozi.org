@@ -159,7 +159,7 @@ tags:
 |[CAC](#cac)|[www.cac.mom](https://www.cac.mom/#/register?code=kYL5chvN)| 无 |7.9元 168G/月|❌|[TG](https://t.me/CAC_Apex)|暂无|
 |[TNT](#tnt)|[ermaozi01.tntvipaff.cc](https://ermaozi02.tntvipaff.cc/#/register?code=f1EyPwf3)|无|10元60g/月(季付)|❌|[TG](https://t.me/TNTCloud2)|[前往](/posts/tnt/)|
 |[百变小樱](#百变小樱)|[bbxy88.com](https://bbxy.xn--cesw6hd3s99f.com/auth/register?code=WuuD)| 无 | 15元 100G/30天|❌|[TG](https://t.me/+IugiUXlyYqgyNjE0)|[前往](/posts/百变小樱/)|
-|[白羊星](#白羊星)|[baiyangxing.com](https://baiyangxing.com/#/register?code=gelkjfjz)| 7天 10G | 12元 100G/月|✔|暂无|[前往](/posts/白羊星/)|
+|[白羊星](#白羊星)|[baiyangxi.com](https://baiyangxi.com/#/register?code=gelkjfjz)| 7天 10G | 12元 100G/月|✔|暂无|[前往](/posts/白羊星/)|
 |[加速啦](#加速啦)|[jiasu.la/?r=39116](https://jiasu.la/?r=39116)| 1G 不限时 |10元 80G/月|✔|[TG](https://t.me/jiasu_la)|[前往](/posts/加速啦/)|
 |[koodog](#koodog)|[koodog.com](https://zero.thisgourl.xyz/#/register?code=BSkBAzZz)| 无 |5元 35G/月|❌|[TG](https://t.me/KooDogGroup)|[前往](/posts/koodog/)|
 |[掌中世界](#掌中世界)|[qq.zjs2025.com](https://qq.zjs2025.com/user/register?code=S74QiRGN)| 无 | 18元 100G/月|❌|暂无|[前往](/posts/掌中世界/)|
@@ -867,7 +867,7 @@ xxai官网地址：[xxai.uk](https://xx-ai.co?invite_code=K2TpsDcg)
 
 ### 白羊星
 
-白羊星官网地址：[baiyangxing.com](https://baiyangxing.com/#/register?code=gelkjfjz)
+白羊星官网地址：[baiyangxi.com](https://baiyangxi.com/#/register?code=gelkjfjz)
 
 邀请码：gelkjfjz
 

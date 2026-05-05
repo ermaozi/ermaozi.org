@@ -133,6 +133,7 @@ tags:
 |[ssone](#ssone)|[hello-ssone.com](https://hello-ssone.com/register?aff=aBHsE1pF)| 1天 1G |10元 60G/月|❌|[TG](https://t.me/+rYzRmCbJfIw3ZTM1)|[前往](/posts/ssone/)|
 |[xxyun](#xxyun)|[xxyun.de](https://xxyun.at/?code=HOWnn58c)| 无 |9.99元 100G/月|✔|[TG](https://t.me/+eYsE6P_xvjk2NGY5)|[前往](/posts/xxyun/)|
 |[flybit](#flybit)|[goflybit.com](https://goflybit.com/#/register?code=7h1NCdM7)| 1天2G |12元 100G/月|✔|[TG](https://t.me/flybitvip)|[前往](/posts/flybit/)|
+| U1S1 | [官网](https://secha7689.malaixiya1.cyou/#/?code=FC32x5Vs) | 20元 | IPLC不限设备 | [前往评测](./机场推荐u1s1.md) |
 |[cocoduck](#cocoduck)|[cocoduck.live](https://cocoduck.live/auth/register?code=25c8b515df)| 1天2G |15元 150G/月|❌|[TG](https://t.me/cocoduck_pub)|[前往](/posts/cocoduck/)|
 |[奈云](#奈云)|[v2ny788.top](https://v2ny788.top?path=register&code=FNAu1FWB)|无|10.6元 168G/月(年付)|✔|[TG](https://t.me/v2naiun)|[前往](/posts/奈云/)|
 |[Runway](#runway)|[runwayhz.com](https://www.runwayhz.com/#/register?code=RiIDywqb)| 无 |9.9元 100G/月|✔|[TG](https://t.me/runwayhzop)|[前往](/posts/runway/)|

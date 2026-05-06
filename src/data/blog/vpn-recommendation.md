@@ -149,7 +149,7 @@ tags:
 |[瞬云](#瞬云)|[aaa.jichang.best](https://aaa.jichang.best/#/register?code=QEiJcAPp)| 无 |8.25元 59G/月|❌|暂无|[前往](/posts/瞬云/)|
 |[一翻云](#一翻云)|[01.1flyunaff.cc](https://falmera.1flyuntt.cc/#/register?code=wQxPnuZv)| 无 |30元 150GB/月|✔|[TG](https://t.me/yifanyun1)|[前往](/posts/一翻云/)|
 |[二猫云](#二猫云)|[velmora.2maoyuntt.club](https://velmora.2maoyuntt.club/#/register?code=6n2UaV1A)| 无 |20元 100GB/月|❌|暂无|[前往](/posts/ermaoyun/)|
-|[寰宇云](#寰宇云)|[huanyuyunvip.com](https://huanyuyunvip.com/#/register?code=W82s7u2a)| - |18元 150GB/月(折后约14元)|✔|[TG](https://t.me/+zXIUmCa1aLBmOGQx)|[前往](/posts/huanyuyun/)|
+|[寰宇云](#寰宇云)|[huanyuyunbest.com](https://huanyuyunbest.com/#/register?code=W82s7u2a)| - |18元 150GB/月(折后约14元)|✔|[TG](https://t.me/+zXIUmCa1aLBmOGQx)|[前往](/posts/huanyuyun/)|
 |[Sogo云](#sogo云)|[falvorn.sogoyunt.cc](https://falvorn.sogoyunt.cc/#/register?code=yxneZJKR)| - |20元 120GB/月(活动档)|✔|[TG](https://t.me/sogoyun1)|[前往](/posts/sogoyun/)|
 |[传送门](#传送门)|[csmfby.com](https://aa.csmfby.com/?code=b9eUUu00)| 无 |99元 59G/月(年付)|❌|暂无|[前往](/posts/传送门/)|
 |[Danke](#danke)|[2iipd.dklineo.top](https://2iipd.dklineo.top/#/register?code=a0zksG3J)| 无 |3元 88GB/月|✔|[TG](https://t.me/dankewed1)|[前往](/posts/danke/)|
@@ -252,7 +252,7 @@ tags:
 
 ### 寰宇云
 
-寰宇云官网地址：[huanyuyunvip.com](https://huanyuyunvip.com/#/register?code=W82s7u2a)
+寰宇云官网地址：[huanyuyunbest.com](https://huanyuyunbest.com/#/register?code=W82s7u2a)
 
 最便宜的订阅有18元 150GB/月，活动后约 14元。
 有 一次性订阅。
@@ -261,12 +261,12 @@ tags:
 
 | 套餐名称 | 价格 | 流量 | 适用人群 | 购买链接 |
 |----------|------|------|----------|----------|
-| 限定年付小包 | 89元/年 | 60GB/月 | 轻度小流量用户、备用线用户 | [立即购买](https://huanyuyunvip.com/#/register?code=W82s7u2a) |
-| 卫星 | 18元/月（折后约14元） | 150GB/月 | 低成本试错用户 | [立即购买](https://huanyuyunvip.com/#/register?code=W82s7u2a) |
-| 行星 | 34元/月 | 300GB/月 | 日常视频与 AI 工具用户 | [立即购买](https://huanyuyunvip.com/#/register?code=W82s7u2a) |
-| 恒星 | 60元/月 | 600GB/月 | 高频多设备用户 | [立即购买](https://huanyuyunvip.com/#/register?code=W82s7u2a) |
-| 巨量不限时 | 168元/一次性 | 1000GB 总量 | 低频长期备用 | [立即购买](https://huanyuyunvip.com/#/register?code=W82s7u2a) |
-| 海量不限时 | 398元/一次性 | 3000GB 总量 | 中长期非连续高频用户 | [立即购买](https://huanyuyunvip.com/#/register?code=W82s7u2a) |
+| 限定年付小包 | 89元/年 | 60GB/月 | 轻度小流量用户、备用线用户 | [立即购买](https://huanyuyunbest.com/#/register?code=W82s7u2a) |
+| 卫星 | 18元/月（折后约14元） | 150GB/月 | 低成本试错用户 | [立即购买](https://huanyuyunbest.com/#/register?code=W82s7u2a) |
+| 行星 | 34元/月 | 300GB/月 | 日常视频与 AI 工具用户 | [立即购买](https://huanyuyunbest.com/#/register?code=W82s7u2a) |
+| 恒星 | 60元/月 | 600GB/月 | 高频多设备用户 | [立即购买](https://huanyuyunbest.com/#/register?code=W82s7u2a) |
+| 巨量不限时 | 168元/一次性 | 1000GB 总量 | 低频长期备用 | [立即购买](https://huanyuyunbest.com/#/register?code=W82s7u2a) |
+| 海量不限时 | 398元/一次性 | 3000GB 总量 | 中长期非连续高频用户 | [立即购买](https://huanyuyunbest.com/#/register?code=W82s7u2a) |
 
 ---
 

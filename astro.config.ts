@@ -61,54 +61,51 @@ export default defineConfig({
       }),
     },
   },
-  experimental: {
-    preserveScriptOrder: true,
-    fonts: [
-      {
-        name: "Wotfard",
-        cssVariable: "--font-wotfard",
-        fallbacks: ["sans-serif"],
-        provider: fontProviders.local(),
-        options: {
-          variants: [
-            {
-              src: ["./src/assets/fonts/wotfard-regular-webfont.woff2"],
-            },
-          ],
-        },
+  fonts: [
+    {
+      name: "Wotfard",
+      cssVariable: "--font-wotfard",
+      fallbacks: ["sans-serif"],
+      provider: fontProviders.local(),
+      options: {
+        variants: [
+          {
+            src: ["./src/assets/fonts/wotfard-regular-webfont.woff2"],
+          },
+        ],
       },
-      {
-        name: "Sriracha",
-        cssVariable: "--font-sriracha",
-        fallbacks: ["cursive"],
-        provider: fontProviders.google(),
+    },
+    {
+      name: "Sriracha",
+      cssVariable: "--font-sriracha",
+      fallbacks: ["cursive"],
+      provider: fontProviders.google(),
+    },
+    {
+      name: "Cartograph CF",
+      cssVariable: "--font-cartograph",
+      fallbacks: ["monospace"],
+      provider: fontProviders.local(),
+      options: {
+        variants: [
+          {
+            src: ["./src/assets/fonts/cartograph-cf-regular-webfont.woff2"],
+          },
+        ],
       },
-      {
-        name: "Cartograph CF",
-        cssVariable: "--font-cartograph",
-        fallbacks: ["monospace"],
-        provider: fontProviders.local(),
-        options: {
-          variants: [
-            {
-              src: ["./src/assets/fonts/cartograph-cf-regular-webfont.woff2"],
-            },
-          ],
-        },
+    },
+    {
+      name: "Cascadia Code",
+      cssVariable: "--font-cascadia-code",
+      fallbacks: ["monospace"],
+      provider: fontProviders.local(),
+      options: {
+        variants: [
+          {
+            src: ["./src/assets/fonts/cascadia-code.woff2"],
+          },
+        ],
       },
-      {
-        name: "Cascadia Code",
-        cssVariable: "--font-cascadia-code",
-        fallbacks: ["monospace"],
-        provider: fontProviders.local(),
-        options: {
-          variants: [
-            {
-              src: ["./src/assets/fonts/cascadia-code.woff2"],
-            },
-          ],
-        },
-      },
-    ],
-  },
+    },
+  ],
 });

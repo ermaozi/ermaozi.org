@@ -1,5 +1,9 @@
 # build output
 dist/
+
+# pagefind generated search artifacts
+public/pagefind/
+
 # generated types
 .astro/
 .cache/

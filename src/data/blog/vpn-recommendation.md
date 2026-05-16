@@ -156,7 +156,7 @@ tags:
 |[Danke](#danke)|[2iipd.dklineo.top](https://2iipd.dklineo.top/#/register?code=a0zksG3J)| 无 |3元 88GB/月|✔|[TG](https://t.me/dankewed1)|[前往](/posts/danke/)|
 |[ccyz](#ccyz)|[ccyz.org](https://ccyz.org/?code=QkQotDCu)| 1G |15元 150G/月|❌|[TG](https://t.me/+jiosLuqA9Mk0Yjkx)|[前往](/posts/ccyz/)|
 |[ssone](#ssone)|[hello-ssone.com](https://hello-ssone.com/register?aff=aBHsE1pF)| 1天 1G |10元 60G/月|❌|[TG](https://t.me/+rYzRmCbJfIw3ZTM1)|[前往](/posts/ssone/)|
-|[青云梯](#青云梯)|[ermaozi01.qytvipaff.cc](https://ermaozi01.qytvipaff.cc/register?aff=W5ICDu2y)| 无 |8 元60g/月(年付)|❌|[TG](https://t.me/qingyunticc)|[前往](/posts/青云梯/)|
+|[青云梯](#青云梯)|[ermaozi02.qytvipaff.cc](https://ermaozi02.qytvipaff.cc/register?aff=W5ICDu2y)| 无 |8 元60g/月(年付)|❌|[TG](https://t.me/qingyunticc)|[前往](/posts/青云梯/)|
 |[极连云](#极连云)|[ermaozi01.jlcvipaff.cc](https://ermaozi01.jlcvipaff.cc/#/register?code=GHDiZb1m)| 无 |8元 60G/月|✔|[TG](https://t.me/JLYCloud)|[前往](/posts/极连云/)|
 |[CAC](#cac)|[www.cac.mom](https://www.cac.mom/#/register?code=kYL5chvN)| 无 |7.9元 168G/月|❌|[TG](https://t.me/CAC_Apex)|[前往](/posts/cac/)|
 |[光年梯](#光年梯)|[ermaozi01.gntvipaff.cc](https://ermaozi01.gntvipaff.cc/#/?code=FSEQIfPr)| 无 |18元 110G/月|✔|[TG](https://t.me/guangnianti)|[前往](/posts/光年梯/)|
@@ -909,7 +909,7 @@ xxai官网地址：[xxai.uk](https://xx-ai.co?invite_code=K2TpsDcg)
 
 ### 青云梯
 
-青云梯官网地址：[ermaozi01.qytvipaff.cc](https://ermaozi01.qytvipaff.cc/register?aff=W5ICDu2y)
+青云梯官网地址：[ermaozi02.qytvipaff.cc](https://ermaozi02.qytvipaff.cc/register?aff=W5ICDu2y)
 
 邀请码：W5ICDu2y
 

@@ -12,7 +12,7 @@ tags:
 ---
 # 2026 Sogo云机场推荐：先看结论，20元120GB起值不值
 
-官网入口：[01.sogoyunaff.cc](https://vip4.huanyuyunbest.com/#/register?code=yxneZJKR)
+官网入口：[01.sogoyunaff.cc](https://trevona.sogocloudz.cc/#/login?code=yxneZJKR)
 
 ## 结论先行
 

@@ -12,7 +12,7 @@ tags:
 ---
 # 2026 二猫云机场推荐：先看结论，20元100GB起该不该上车
 
-官网入口：[velmora.2maoyuntt.club](https://velmora.2maoyuntt.club/#/register?code=6n2UaV1A)
+官网入口：[v01.2maoyunaff.cc](https://v01.2maoyunaff.cc/#/register?code=6n2UaV1A)
 
 ## 结论先行
 
@@ -30,10 +30,10 @@ tags:
 
 | 层级 | 参考价格 | 对应流量 | 说明 | 购买链接 |
 | --- | --- | --- | --- | --- |
-| 入门档 | 20元/月 | 100GB/月 | 低成本验证 | [立即购买](https://velmora.2maoyuntt.club/#/register?code=6n2UaV1A) |
-| 主力档 | 40元/月 | 200GB/月 | 日常更均衡 | [立即购买](https://velmora.2maoyuntt.club/#/register?code=6n2UaV1A) |
-| 进阶档 | 80元/月 | 400GB/月 | 中重度使用 | [立即购买](https://velmora.2maoyuntt.club/#/register?code=6n2UaV1A) |
-| 高频档 | 160元/月 | 800GB/月 | 多设备高频场景 | [立即购买](https://velmora.2maoyuntt.club/#/register?code=6n2UaV1A) |
+| 入门档 | 20元/月 | 100GB/月 | 低成本验证 | [立即购买](https://v01.2maoyunaff.cc/#/register?code=6n2UaV1A) |
+| 主力档 | 40元/月 | 200GB/月 | 日常更均衡 | [立即购买](https://v01.2maoyunaff.cc/#/register?code=6n2UaV1A) |
+| 进阶档 | 80元/月 | 400GB/月 | 中重度使用 | [立即购买](https://v01.2maoyunaff.cc/#/register?code=6n2UaV1A) |
+| 高频档 | 160元/月 | 800GB/月 | 多设备高频场景 | [立即购买](https://v01.2maoyunaff.cc/#/register?code=6n2UaV1A) |
 
 ## 风险提醒
 

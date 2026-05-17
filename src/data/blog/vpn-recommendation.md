@@ -166,7 +166,7 @@ tags:
 |[梦想云](#梦想云)|[gx.dreamcl.sbs](https://gx.dreamcl.sbs/#/register?code=GFUAEweX)| 无 |8.8元 300GB/月|❌|暂无|[前往](/posts/梦想云/)|
 |[白羊星](#白羊星)|[baiyangxi.com](https://baiyangxi.com/#/register?code=gelkjfjz)| 7天 10G | 12元 100G/月|✔|暂无|[前往](/posts/白羊星/)|
 |[百变小樱](#百变小樱)|[bbxy88.com](https://cn2.cardsakura.buzz/v2/register?code=WuuD)| 无 | 15元 100G/30天|❌|[TG](https://t.me/+IugiUXlyYqgyNjE0)|[前往](/posts/百变小樱/)|
-|[okanc](#okanc)|[okanc.com](https://www.okanc.com/index.php#/register?code=3YK7Np6R)| 无 |46元 328G/月|❌|[TG](https://t.me/okancup)|[前往](/posts/okanc/)|
+|[okanc](#okanc)|[okanc.com](https://www.okanc.com/#/register?code=spBqEcUn)| 无 |46元 328G/月|❌|[TG](https://t.me/okancup)|[前往](/posts/okanc/)|
 |[纵云梯](#纵云梯)|[zongyunti.com/](https://zongyunti.com/?r=60147)| 1G 不限时| 10元 60G/30天|❌|暂无|[前往](/posts/纵云梯/)|
 |[光速云](#光速云)|[zimaoer01.gsyvipaff.cc](https://zimaoer01.gsyvipaff.cc/#/?code=d1eMb3ku)| 无 |8.25元 59G/月|✔|[TG](https://t.me/LightspeedCloud)|[前往](/posts/光速云/)|
 |[随便云](#随便云)|[wcnm.one](https://wcnm.one/register?code=YZxHwCws)| 无 |10元 68G/月|✔|[TG](https://t.me/suibianvip)|[前往](/posts/随便云/)|
@@ -730,7 +730,7 @@ xxyun加速特性如下：
 
 ### okanc
 
-okanc官网地址：[okanc.com](https://www.okanc.com/index.php#/register?code=3YK7Np6R)
+okanc官网地址：[okanc.com](https://www.okanc.com/#/register?code=spBqEcUn)
 
 邀请码：3YK7Np6R
 
@@ -742,9 +742,9 @@ okanc机场是一个新机场，但是与奈云同宗同源，有奈云的技术
 
 |套餐|价格|流量|购买地址|
 |---|---|---|---|
-|Pro版|46元/月|328GB/月|[点击购买](https://www.okanc.com/index.php#/register?code=3YK7Np6R)|
-|Max版|50元/月|600GB/月|[点击购买](https://www.okanc.com/index.php#/register?code=3YK7Np6R)|
-|MAX+极致版|88元/月|1024GB/月|[点击购买](https://www.okanc.com/index.php#/register?code=3YK7Np6R)|
+|Pro版|46元/月|328GB/月|[点击购买](https://www.okanc.com/#/register?code=spBqEcUn)|
+|Max版|50元/月|600GB/月|[点击购买](https://www.okanc.com/#/register?code=spBqEcUn)|
+|MAX+极致版|88元/月|1024GB/月|[点击购买](https://www.okanc.com/#/register?code=spBqEcUn)|
 
 ---
 

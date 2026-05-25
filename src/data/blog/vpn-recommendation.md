@@ -136,7 +136,7 @@ tags:
 |[xxyun](#xxyun)|[xxyun.de](https://xxyun.at/?code=HOWnn58c)| 无 |9.99元 100G/月|✔|[TG](https://t.me/+eYsE6P_xvjk2NGY5)|[前往](/posts/xxyun/)|
 |[奈云](#奈云)|[v2ny788.top](https://v2ny788.top?path=register&code=FNAu1FWB)|无|10.6元 168G/月(年付)|✔|[TG](https://t.me/v2naiun)|[前往](/posts/奈云/)|
 |[cocoduck](#cocoduck)|[www.cocoduck.live](https://www.cocoduck.live/auth/register?code=25c8b515df)| 1天2G |15元 150G/月|❌|[TG](https://t.me/cocoduck_pub)|[前往](/posts/cocoduck/)|
-|[网际快车](#网际快车)|[wjkc.click](https://wjkc.click?c=USNCXQ)| 无 |6.8元 20GB(不限时)|✔|暂无|[前往](/posts/网际快车/)|
+|[网际快车](#网际快车)|[ermao.快车.com](https://ermao.快车.com?c=USNCXQ)| 无 |6.8元 20GB(不限时)|✔|暂无|[前往](/posts/网际快车/)|
 |[阿达西](#阿达西)|[adaxi.net](https://adaxi.net/?r=68917)| 无 |3元 20G/月|✔|暂无|[前往](/posts/阿达西/)|
 |[老头vpn](#老头vpn)|[www.chattous.net](https://www.chattous.net/register?code=3OWtZ9Bi)| 1月1G | 25元 150G/月|❌|[TG](https://t.me/OldManVPN)|[前往](/posts/老头vpn/)|
 |[uuone](#uuone)|[uuone.de](https://uuone.at/?code=AjqYdZlJ)| 无 |12元 150G/月|✔|暂无|[前往](/posts/uuone/)|

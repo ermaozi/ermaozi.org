@@ -149,6 +149,7 @@ tags:
 |[Edge-X](#edge-x)|[edge-x.net](https://edge-invite.com/#/register?code=LCH9laOs)| 无 |22.8元/月起|❌|[TG](https://t.me/EdgeX_Notice)|[前往](/posts/edge-x/)|
 |[速界](#速界)|[speedworld.cc](https://ermaozi01.speedworldaff.cc/#/register?code=7rQfT6CS)| 无 |25元/月|❌|暂无|[前往](/posts/sujie/)|
 |[边缘节点](#边缘节点)|[lunvexa.edgenovayun.cc](https://lunvexa.edgenovayun.cc/#/register?code=n5uSqGLR)| 无 |9元/月(年付45G)|✔|暂无|[前往](/posts/bianyuanjiedian/)|
+|[快狸](#快狸)|[ermaozi.kuailicloud.cc](https://ermaozi.kuailicloud.cc/#/register?code=nwj3Tk14)| 无 |10元 30G/月|✔|暂无|[前往](/posts/kuaili/)|
 |[龙猫云](#龙猫云)|[lmspeed.co](https://ermaozi01.lmvipaff03.cc/register?aff=aOkm2wPW)| 无 |15元 100G/月|❌|[TG](https://t.me/totoro_clouds)|[前往](/posts/龙猫云/)|
 |[唯兔云](#唯兔云)|[vip01.onlyrabbit.cc](https://a01.v2cvipaff.cc/#/?code=iaD6AgSx)| 无 |6元 45G/月|✔|[TG](https://t.me/v2yun_v2)|[前往](/posts/唯兔云/)|
 |[百变小樱](#百变小樱)|[bbxy88.com](https://cn2.cardsakura.buzz/v2/register?code=WuuD)| 无 | 15元 100G/30天|❌|[TG](https://t.me/+IugiUXlyYqgyNjE0)|[前往](/posts/百变小樱/)|

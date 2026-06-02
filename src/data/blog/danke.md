@@ -15,7 +15,7 @@ tags:
 
 Danke的特点是“方案分层清晰”：先用小成本验证，再按频率切换月付或年费，不同使用习惯都有对应入口。
 
-官网入口：[https://2iipd.dklineo.top/#/register?code=a0zksG3J](https://2iipd.dklineo.top/#/register?code=a0zksG3J)
+官网入口：[https://www.dankewed.com/#/register?code=a0zksG3J](https://www.dankewed.com/#/register?code=a0zksG3J)
 
 ## 结论先行
 
@@ -44,12 +44,12 @@ Danke的特点是“方案分层清晰”：先用小成本验证，再按频率
 
 | 套餐 | 价格 | 流量 | 适配场景 | 购买 |
 |---|---|---|---|---|
-| 体验套餐 | ¥3.00/月 | 88GB/30天 | 首次验证 | [立即购买](https://2iipd.dklineo.top/#/register?code=a0zksG3J) |
-| Mini | ¥9.90/月 | 500GB/月 | 日常中度使用 | [立即购买](https://2iipd.dklineo.top/#/register?code=a0zksG3J) |
-| Pro | ¥18.00/月 | 1000GB/月 | 多设备重度使用 | [立即购买](https://2iipd.dklineo.top/#/register?code=a0zksG3J) |
-| 年费6T特惠 | ¥68/年 | 每月500GB（全年6TB） | 长期预算优化 | [立即购买](https://2iipd.dklineo.top/#/register?code=a0zksG3J) |
-| 不限时500GB | ¥49.90/一次性 | 500GB总量 | 备用流量 | [立即购买](https://2iipd.dklineo.top/#/register?code=a0zksG3J) |
-| 不限时1000GB | ¥89.90/一次性 | 1000GB总量 | 低频大流量备用 | [立即购买](https://2iipd.dklineo.top/#/register?code=a0zksG3J) |
+| 体验套餐 | ¥3.00/月 | 88GB/30天 | 首次验证 | [立即购买](https://www.dankewed.com/#/register?code=a0zksG3J) |
+| Mini | ¥9.90/月 | 500GB/月 | 日常中度使用 | [立即购买](https://www.dankewed.com/#/register?code=a0zksG3J) |
+| Pro | ¥18.00/月 | 1000GB/月 | 多设备重度使用 | [立即购买](https://www.dankewed.com/#/register?code=a0zksG3J) |
+| 年费6T特惠 | ¥68/年 | 每月500GB（全年6TB） | 长期预算优化 | [立即购买](https://www.dankewed.com/#/register?code=a0zksG3J) |
+| 不限时500GB | ¥49.90/一次性 | 500GB总量 | 备用流量 | [立即购买](https://www.dankewed.com/#/register?code=a0zksG3J) |
+| 不限时1000GB | ¥89.90/一次性 | 1000GB总量 | 低频大流量备用 | [立即购买](https://www.dankewed.com/#/register?code=a0zksG3J) |
 
 ## 风险提示
 

@@ -13,7 +13,7 @@ tags:
 ---
 # 2026 边缘节点机场推荐：结论先看，适不适合你一眼判断
 
-官网入口：[lunvexa.edgenovayun.cc](https://lunvexa.edgenovayun.cc/#/register?code=n5uSqGLR)
+官网入口：[ermaozi.edgenovaaff.cc](https://ermaozi.edgenovaaff.cc/#/register?code=n5uSqGLR)
 
 ## 结论先行
 

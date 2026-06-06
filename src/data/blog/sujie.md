@@ -13,7 +13,7 @@ tags:
 ---
 # 2026 速界机场推荐：先看结论，再决定要不要上车
 
-官网入口：[speedworld.cc](https://ermaozi01.speedworldaff.cc/#/register?code=7rQfT6CS)
+官网入口：[speedworld.cc](https://ermaozi01.speedworldaff.cc/#/register?code=SLWrHAPx)
 
 ## 结论先行
 

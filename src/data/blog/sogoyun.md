@@ -12,7 +12,7 @@ tags:
 ---
 # 2026 Sogo云机场推荐：先看结论，20元120GB起值不值
 
-官网入口：[01.sogoyunaff.cc](https://trevona.sogocloudz.cc/#/login?code=yxneZJKR)
+官网入口：[01.sogoyunaff.cc](https://01.sogoyunaff.cc/#/login?code=yxneZJKR)
 
 ## 结论先行
 
@@ -30,10 +30,10 @@ tags:
 
 | 层级 | 参考价格 | 对应流量 | 说明 | 购买链接 |
 | --- | --- | --- | --- | --- |
-| 入门档 | 20-25元/月 | 120GB/月 | 低门槛试用 | [立即购买](https://trevona.sogocloudz.cc/#/login?code=yxneZJKR) |
-| 主力档 | 50-100元/月 | 250GB-500GB/月 | 日常主力候选 | [立即购买](https://trevona.sogocloudz.cc/#/login?code=yxneZJKR) |
-| 高频档 | 200元/月 | 1000GB/月 | 多设备或高流量 | [立即购买](https://trevona.sogocloudz.cc/#/login?code=yxneZJKR) |
-| 一次性流量包 | 100-800元 | 100GB-1000GB | 阶段性补量 | [立即购买](https://trevona.sogocloudz.cc/#/login?code=yxneZJKR) |
+| 入门档 | 20-25元/月 | 120GB/月 | 低门槛试用 | [立即购买](https://01.sogoyunaff.cc/#/login?code=yxneZJKR) |
+| 主力档 | 50-100元/月 | 250GB-500GB/月 | 日常主力候选 | [立即购买](https://01.sogoyunaff.cc/#/login?code=yxneZJKR) |
+| 高频档 | 200元/月 | 1000GB/月 | 多设备或高流量 | [立即购买](https://01.sogoyunaff.cc/#/login?code=yxneZJKR) |
+| 一次性流量包 | 100-800元 | 100GB-1000GB | 阶段性补量 | [立即购买](https://01.sogoyunaff.cc/#/login?code=yxneZJKR) |
 
 ## 风险提醒
 

@@ -2,7 +2,7 @@
 title: '2026 Sogo云机场推荐：先看结论，20元120GB起值不值'
 description: 'Sogo云提供自研客户端一键使用和通用订阅双路径，支持一次性流量包。本文按结论先行、购买路径、风险提醒给出快速决策框架。'
 pubDatetime: '2026-04-14'
-ogImage: 'https://image.ermao.net/images/article/edge-x/20260509_083554-1403ca.png'
+ogImage: 'https://image.ermao.net/images/article/edge-x/20260619_163356-bc37f3.png'
 tags:
   - '科学上网'
   - '机场推荐'

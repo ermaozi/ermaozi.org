@@ -2,7 +2,7 @@
 title: '2026 二猫云机场推荐：先看结论，20元100GB起该不该上车'
 description: '二猫云是新开专线机场，最低20元100GB/月。本文按结论先行、购买路径、风险提醒给出快速决策建议。'
 pubDatetime: '2026-04-14'
-ogImage: 'https://image.ermao.net/images/article/edge-x/20260509_083554-1403ca.png'
+ogImage: 'https://image.ermao.net/images/article/edge-x/20260619_163356-bc37f3.png'
 tags:
   - '科学上网'
   - '机场推荐'

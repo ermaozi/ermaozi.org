@@ -3,7 +3,7 @@ title: '2026 Edge-X机场推荐：先看结论，22.8元档该不该上车'
 description: 'Edge-X主打IEPL+低倍率策略，支持流媒体与AI访问。本文按结论先行、购买路径、风险提醒给出快速决策。'
 pubDatetime: '2026-05-09'
 updatedDate: '2026-05-09'
-ogImage: 'https://image.ermao.net/images/article/edge-x/20260509_083554-1403ca.png'
+ogImage: 'https://image.ermao.net/images/article/edge-x/20260619_163356-bc37f3.png'
 tags:
   - '科学上网'
   - '机场推荐'

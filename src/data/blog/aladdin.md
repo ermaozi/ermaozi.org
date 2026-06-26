@@ -2,7 +2,7 @@
 title: '2026 Aladdin机场推荐：30元390G半年付，值得作为备用线吗'
 description: 'Aladdin已知最低门槛为30元390GB/半年，主打高质量节点、主流流媒体解锁和 OpenAI 可访问。本文按结论、购买路径和风险提醒整理已确认信息。'
 pubDatetime: '2026-04-03'
-ogImage: 'https://image.ermao.net/images/article/edge-x/20260619_163356-bc37f3.png'
+ogImage: 'https://image.ermao.net/images/article/edge-x/20260509_083554-1403ca.png'
 tags:
   - '科学上网'
   - '机场推荐'

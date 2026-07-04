@@ -136,6 +136,7 @@ tags:
 |[flybit](#flybit)|[goflybit.com](https://goflybit.com/#/register?code=7h1NCdM7)| 1天2G |12元 100G/月|✔|[TG](https://t.me/flybitvip)|[前往](/posts/flybit/)|
 |[XSUS](#xsus)|[xsus.cloud](https://xsus.cloud/register?code=xJFcT1Dw)| 无 |8元 168G/30天|✔|[TG](https://t.me/xsusvpn)|[前往](/posts/xsus/)|
 |[xxyun](#xxyun)|[xxyun.de](https://xxyun.at/?code=HOWnn58c)| 无 |9.99元 100G/月|✔|[TG](https://t.me/+eYsE6P_xvjk2NGY5)|[前往](/posts/xxyun/)|
+|[山水云](#山水云)|[山水云.com](https://山水云.com/#/register?code=zQA4TyPT)| 无 |14.99元 100G/月|✔|[TG](https://t.me/ssyun999)|[前往](/posts/山水云/)|
 |[cocoduck](#cocoduck)|[www.cocoduck.live](https://www.cocoduck.live/auth/register?code=25c8b515df)| 1天2G |15元 150G/月|❌|[TG](https://t.me/cocoduck_pub)|[前往](/posts/cocoduck/)|
 |[网际快车](#网际快车)|[ermao.快车.com](https://ermao.快车.com?c=USNCXQ)| 无 |6.8元 20GB(不限时)|✔|暂无|[前往](/posts/网际快车/)|
 |[阿达西](#阿达西)|[adaxi.net](https://adaxi.net/?r=68917)| 无 |3元 20G/月|✔|暂无|[前往](/posts/阿达西/)|
@@ -198,6 +199,16 @@ tags:
 
 
 ## 好用的VPN机场详细评测与套餐价格
+
+### 山水云
+
+官网地址：[山水云.com](https://山水云.com/#/register?code=zQA4TyPT)
+
+最便宜的订阅是 14.99 元/月，对应 100G/月；另外还有 200G/月、500G/月、999G/月，以及 100G/不限时、300G/不限时的一次性套餐。
+
+山水云支持通用订阅，节点为中转 + 直连，支持 GPT、Tiktok 等全流媒体。更适合想先用月付小档验证，再决定要不要长期留用的人。
+
+![山水云机场官网首页](https://image.ermao.net/images/blog/2k7jn2n8/20260704_195922-14ee83.png)
 
 ### ssone
 

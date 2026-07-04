@@ -157,6 +157,7 @@ tags:
 |[百变小樱](#百变小樱)|[bbxy88.com](https://cn2.cardsakura.buzz/v2/register?code=WuuD)| 无 | 15元 100G/30天|❌|[TG](https://t.me/+IugiUXlyYqgyNjE0)|[前往](/posts/百变小樱/)|
 |[寰宇云](#寰宇云)|[vip4.huanyuyunbest.com](https://vip4.huanyuyunbest.com/#/register?code=W82s7u2a)| - |18元 150GB/月(折后约14元)|✔|[TG](https://t.me/+zXIUmCa1aLBmOGQx)|[前往](/posts/huanyuyun/)|
 |[光速云](#光速云)|[zimaoer01.gsyvipaff.cc](https://zimaoer01.gsyvipaff.cc/#/?code=d1eMb3ku)| 无 |8.25元 59G/月|✔|[TG](https://t.me/LightspeedCloud)|[前往](/posts/光速云/)|
+|[影子云](#影子云)|[www.yingzi01.com](https://www.yingzi01.com/register?code=TYHpo13G)| 无 |18.8元 150G/月|✔|无|[前往](/posts/影子云/)|
 |[星岛梦](#星岛梦)|[ermaov1.xdmvipaff.cc](https://ermaov1.xdmvipaff.cc/#/?code=O9Q9H6VY)| 无 |16元 100G/月|✔|[TG](https://t.me/XDM6666666)|[前往](/posts/星岛梦/)|
 |[闪狐云](#闪狐云)|[flashfox.cc](https://erozi01.ffvipaff.cc/register?aff=NCO1w4Iv)| 无 |20元 120G/月|❌|[TG](https://t.me/flashfoxcloud)|[前往](/posts/闪狐云/)|
 |[掌中世界](#掌中世界)|[qq.zjs2025.com](https://qq.zjs2025.com/user/register?code=S74QiRGN)| 无 | 18元 100G/月|❌|暂无|[前往](/posts/掌中世界/)|

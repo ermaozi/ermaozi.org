@@ -9,42 +9,64 @@ import "@/styles/global.css";
 type Props = {
   title?: string;
   author?: string;
-  profile?: string;
   description?: string;
   ogImage?: string;
   canonicalURL?: string;
   pubDatetime?: Date;
   modDatetime?: Date | null;
+  tags?: string[];
   scrollSmooth?: boolean;
 };
 
 const {
   title = SITE.title,
   author = SITE.author,
-  profile = SITE.profile,
   description = SITE.desc,
   ogImage = SITE.ogImage ? `/${SITE.ogImage}` : "/og.png",
   canonicalURL = new URL(Astro.url.pathname, Astro.url),
   pubDatetime,
   modDatetime,
+  tags = [],
   scrollSmooth = false,
 } = Astro.props;
 
 const socialImageURL = new URL(ogImage, Astro.url);
 
+const isArticle = Boolean(pubDatetime);
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: `${title}`,
-  image: `${socialImageURL}`,
-  datePublished: `${pubDatetime?.toISOString()}`,
-  ...(modDatetime && { dateModified: modDatetime.toISOString() }),
-  author: [
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${SITE.website}#website`,
+      url: SITE.website,
+      name: SITE.title,
+      description: SITE.desc,
+      inLanguage: SITE.lang,
+      publisher: { "@id": `${SITE.profile}#person` },
+    },
     {
       "@type": "Person",
-      name: `${author}`,
-      ...(profile && { url: profile }),
+      "@id": `${SITE.profile}#person`,
+      name: SITE.author,
+      url: SITE.profile,
+      sameAs: ["https://github.com/ermaozi", "https://x.com/ermaozi4", "https://t.me/ermaozi01"],
     },
+    ...(isArticle ? [{
+      "@type": "BlogPosting",
+      "@id": `${canonicalURL}#article`,
+      headline: title,
+      description,
+      image: socialImageURL.href,
+      datePublished: pubDatetime!.toISOString(),
+      dateModified: (modDatetime ?? pubDatetime)!.toISOString(),
+      inLanguage: SITE.lang,
+      keywords: tags,
+      author: { "@id": `${SITE.profile}#person` },
+      publisher: { "@id": `${SITE.profile}#person` },
+      mainEntityOfPage: canonicalURL.toString(),
+      isPartOf: { "@id": `${SITE.website}#website` },
+    }] : []),
   ],
 };
 ---
@@ -86,12 +108,18 @@ const structuredData = {
     <meta name="description" content={description} />
     <meta name="author" content={author} />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="text/plain" title="LLM 内容索引" href="/llms.txt" />
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={socialImageURL} />
+    <meta property="og:image:alt" content={title} />
+    <meta property="og:type" content={isArticle ? "article" : "website"} />
+    <meta property="og:site_name" content={SITE.title} />
+    <meta property="og:locale" content="zh_CN" />
 
     <!-- Article Published/Modified time -->
     {
@@ -134,7 +162,7 @@ const structuredData = {
       href={new URL("rss.xml", Astro.site)}
     />
 
-    <meta name="theme-color" content="" />
+    <meta name="theme-color" content="#0f766e" />
 
     {
       // If PUBLIC_GOOGLE_SITE_VERIFICATION is set in the environment variable,

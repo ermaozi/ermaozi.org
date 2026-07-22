@@ -2,8 +2,8 @@ export const SITE = {
   website: "https://ermaozi.org/",
   author: "Ermaozi",
   profile: "https://ermaozi.org/about/",
-  desc: "Ermaozi 的博客，分享机场评测、科学上网与实用教程。",
-  title: "Ermaozi 机场评测与推荐",
+  desc: "Ermaozi 的独立实测笔记，记录机场长期观察、故障复盘、客户端配置与可复现的网络工具教程。",
+  title: "Ermaozi 独立实测与网络工具笔记",
   ogImage: "ermaozi-og.webp", // ubicado en la carpeta public
   lightAndDarkMode: true,
   postPerIndex: 6,

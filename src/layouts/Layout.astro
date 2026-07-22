@@ -15,6 +15,7 @@ type Props = {
   pubDatetime?: Date;
   modDatetime?: Date | null;
   tags?: string[];
+  noindex?: boolean;
   scrollSmooth?: boolean;
 };
 
@@ -27,6 +28,7 @@ const {
   pubDatetime,
   modDatetime,
   tags = [],
+  noindex = false,
   scrollSmooth = false,
 } = Astro.props;
 
@@ -109,7 +111,7 @@ const structuredData = {
     <meta name="author" content={author} />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="alternate" type="text/plain" title="LLM 内容索引" href="/llms.txt" />
-    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+    <meta name="robots" content={noindex ? "noindex,follow" : "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"} />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content={title} />

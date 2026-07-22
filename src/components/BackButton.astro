@@ -55,10 +55,10 @@ const pathSegments = currentUrlPath.split("/").filter(s => s.trim());
                   /
                 </span>
 
-                {index + 1 === pathSegments.length ? (
+                {index + 1 === pathSegments.length || index > 0 ? (
                   <span
                     class="breadcrumb-current truncate px-1.5 py-0.5 text-accent/90 capitalize"
-                    aria-current="page"
+                    aria-current={index + 1 === pathSegments.length ? "page" : undefined}
                   >
                     {decodeURIComponent(segment)}
                   </span>

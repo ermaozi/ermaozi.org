@@ -94,3 +94,11 @@ tags:
 ## 编辑与商业说明
 
 部分官网链接可能包含推广参数，站点可能获得佣金。推广关系不改变风险结论，也不构成服务存续、隐私或稳定性保证。页面数据随主站更新，发现错误请联系 admin@ermao.net。
+
+## 选择与使用指南
+
+- 不确定商业 VPN、机场和自建节点的区别：[先看方案对比](/posts/vpn-vs-jichang-guide/)
+- 准备购买具体套餐：[核对购买前 12 项检查](/posts/jichang-buying-checklist/)
+- 订阅或节点突然无法连接：[按顺序排查客户端与网络](/posts/vpn-troubleshooting-guide/)
+
+最新价格、风险状态和完整候选清单统一以[二毛主站机场推荐页](https://www.ermao.net/posts/vpn/)为准。

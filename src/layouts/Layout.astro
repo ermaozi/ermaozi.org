@@ -8,6 +8,7 @@ import "@/styles/global.css";
 
 type Props = {
   title?: string;
+  articleTitle?: string;
   author?: string;
   description?: string;
   ogImage?: string;
@@ -21,6 +22,7 @@ type Props = {
 
 const {
   title = SITE.title,
+  articleTitle,
   author = SITE.author,
   description = SITE.desc,
   ogImage = SITE.ogImage ? `/${SITE.ogImage}` : "/og.png",
@@ -35,6 +37,7 @@ const {
 const socialImageURL = new URL(ogImage, Astro.url);
 
 const isArticle = Boolean(pubDatetime);
+const articleHeadline = articleTitle ?? title;
 const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
@@ -57,7 +60,7 @@ const structuredData = {
     ...(isArticle ? [{
       "@type": "BlogPosting",
       "@id": `${canonicalURL}#article`,
-      headline: title,
+      headline: articleHeadline,
       description,
       image: socialImageURL.href,
       datePublished: pubDatetime!.toISOString(),
@@ -68,6 +71,29 @@ const structuredData = {
       publisher: { "@id": `${SITE.profile}#person` },
       mainEntityOfPage: canonicalURL.toString(),
       isPartOf: { "@id": `${SITE.website}#website` },
+    }, {
+      "@type": "BreadcrumbList",
+      "@id": `${canonicalURL}#breadcrumb`,
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "首页",
+          item: SITE.website,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "文章",
+          item: new URL("posts/", SITE.website).href,
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: articleHeadline,
+          item: canonicalURL.toString(),
+        },
+      ],
     }] : []),
   ],
 };

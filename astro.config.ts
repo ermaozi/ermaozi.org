@@ -2,6 +2,9 @@ import { defineConfig, envField, fontProviders } from "astro/config";
 import mdx from "@astrojs/mdx";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
+import { readdirSync, readFileSync } from "node:fs";
+import { extname, relative, resolve, sep } from "node:path";
+import { fileURLToPath } from "node:url";
 import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import {
@@ -12,6 +15,54 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import { SITE } from "./src/config";
 
+const BLOG_DIRECTORY = fileURLToPath(
+  new URL("./src/data/blog/", import.meta.url),
+);
+
+const getBlogFiles = (directory: string): string[] =>
+  readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const entryPath = resolve(directory, entry.name);
+
+    if (entry.isDirectory()) return getBlogFiles(entryPath);
+    return [".md", ".mdx"].includes(extname(entry.name)) ? [entryPath] : [];
+  });
+
+const getFrontmatterDate = (
+  content: string,
+  field: "pubDatetime" | "modDatetime",
+) => {
+  const frontmatter = content.match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1];
+  const rawValue = frontmatter
+    ?.match(new RegExp(`^${field}:\\s*(.+?)\\s*$`, "m"))?.[1]
+    .trim()
+    .replace(/^(['"])(.*)\1$/, "$2");
+
+  if (!rawValue) return undefined;
+
+  const timestamp = Date.parse(rawValue);
+  return Number.isNaN(timestamp)
+    ? undefined
+    : new Date(timestamp).toISOString();
+};
+
+const postLastmodByPath = new Map<string, string>();
+
+for (const filePath of getBlogFiles(BLOG_DIRECTORY)) {
+  const content = readFileSync(filePath, "utf8");
+  const lastmod =
+    getFrontmatterDate(content, "modDatetime") ??
+    getFrontmatterDate(content, "pubDatetime");
+
+  if (!lastmod) continue;
+
+  const postPath = `/posts/${relative(BLOG_DIRECTORY, filePath)
+    .replace(/\.(md|mdx)$/, "")
+    .split(sep)
+    .join("/")}/`.toLocaleLowerCase("en-US");
+
+  postLastmodByPath.set(postPath, lastmod);
+}
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
@@ -20,7 +71,15 @@ export default defineConfig({
       extendMarkdownConfig: true,
     }),
     sitemap({
-      filter: page => SITE.showArchives || !page.endsWith("/archives"),
+      filter: (page) => SITE.showArchives || !page.endsWith("/archives"),
+      serialize(item) {
+        const pathname = decodeURIComponent(
+          new URL(item.url).pathname,
+        ).toLocaleLowerCase("en-US");
+        const lastmod = postLastmodByPath.get(pathname);
+
+        return lastmod ? { ...item, lastmod } : item;
+      },
     }),
   ],
   markdown: {

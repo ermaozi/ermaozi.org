@@ -6,7 +6,11 @@ import LinkButton from "@/components/LinkButton.astro";
 import { SITE } from "@/config";
 ---
 
-<Layout title={`404 页面不存在 | ${SITE.title}`}>
+<Layout
+  title={`404 页面不存在 | ${SITE.title}`}
+  description="请求的页面不存在。请返回 Ermaozi 首页，或使用站内搜索查找机场评测、故障排查与网络工具教程。"
+  noindex
+>
   <Header />
 
   <main

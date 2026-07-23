@@ -29,9 +29,14 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
 const params = Astro.params;
 const { tag } = params;
 const { page, tagName } = Astro.props;
+const pageSuffix = page.currentPage > 1 ? ` | 第 ${page.currentPage} 页` : "";
+const metaDescription = `浏览 Ermaozi 中与“${tagName}”相关的文章，第 ${page.currentPage} 页，共 ${page.lastPage} 页；查看独立实测、长期观察、风险记录与网络工具教程。`;
 ---
 
-<Layout title={`标签：${tagName} | ${SITE.title}`}>
+<Layout
+  title={`标签：${tagName}${pageSuffix} | ${SITE.title}`}
+  description={metaDescription}
+>
   <Header />
   <Main
     pageTitle={[`标签：`, `${tagName}`]}

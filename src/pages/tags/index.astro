@@ -21,7 +21,10 @@ const tagsWithCount = tags.map(({ tag, tagName }) => ({
 const maxCount = Math.max(...tagsWithCount.map(t => t.count));
 ---
 
-<Layout title={`标签 | ${SITE.title}`}>
+<Layout
+  title={`标签 | ${SITE.title}`}
+  description={`浏览 Ermaozi 的 ${tagsWithCount.length} 个内容标签，按主题查找机场观察、风险记录、客户端配置与网络工具教程。`}
+>
   <Header />
   <Breadcrumb />
   <main id="main-content" class="app-layout pb-12">

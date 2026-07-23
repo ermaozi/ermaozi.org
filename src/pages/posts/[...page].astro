@@ -18,9 +18,11 @@ export const getStaticPaths = (async ({ paginate }) => {
 
 const { page } = Astro.props;
 const totalPosts = page.total;
+const pageSuffix = page.currentPage > 1 ? `第 ${page.currentPage} 页 | ` : "";
+const metaDescription = `浏览 Ermaozi 已发布的独立实测与网络工具文章，第 ${page.currentPage} 页，共 ${page.lastPage} 页；内容涵盖机场长期观察、故障复盘与客户端配置教程。`;
 ---
 
-<Layout title={`文章 | ${SITE.title}`}>
+<Layout title={`文章 | ${pageSuffix}${SITE.title}`} description={metaDescription}>
   <Header />
   <Breadcrumb />
   <main id="main-content" class="app-layout pb-4">

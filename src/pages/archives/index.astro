@@ -37,7 +37,10 @@ const yearGroups = Object.entries(
 ).sort(([a], [b]) => Number(b) - Number(a));
 ---
 
-<Layout title={`归档 | ${SITE.title}`}>
+<Layout
+  title={`归档 | ${SITE.title}`}
+  description={`按发布时间浏览 Ermaozi 的 ${totalPosts} 篇机场观察、风险记录、故障排查与网络工具文章。`}
+>
   <Header />
   <Breadcrumb />
   <main id="main-content" class="app-layout pb-12">

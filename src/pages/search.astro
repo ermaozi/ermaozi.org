@@ -9,7 +9,10 @@ import { SITE } from "@/config";
 const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
 ---
 
-<Layout title={`搜索 | ${SITE.title}`}>
+<Layout
+  title={`搜索 | ${SITE.title}`}
+  description="搜索 Ermaozi 的机场长期观察、风险记录、客户端配置、故障排查与网络工具教程。"
+>
   <Header />
   <Breadcrumb />
   <main id="main-content" class="app-layout pb-12">

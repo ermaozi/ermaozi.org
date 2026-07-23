@@ -1,6 +1,7 @@
 ---
 layout: ../layouts/AboutLayout.astro
 title: "关于"
+description: "了解 Ermaozi 的实测与更新方法、证据边界、风险判断标准和推广关系披露，以及反馈与联系方式。"
 ---
 
 欢迎来到 **Ermaozi** 的个人站点。这里侧重能复现的实测记录：说明测试时间、环境、判断依据与已知限制，而不是只复述服务商宣传。

@@ -14,6 +14,7 @@ import {
 } from "@shikijs/transformers";
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import { SITE } from "./src/config";
+import { slugifyStr } from "./src/utils/slugify";
 
 const BLOG_DIRECTORY = fileURLToPath(
   new URL("./src/data/blog/", import.meta.url),
@@ -45,7 +46,21 @@ const getFrontmatterDate = (
     : new Date(timestamp).toISOString();
 };
 
+const getFrontmatterTags = (content: string) => {
+  const frontmatter = content.match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1];
+  const tagList = frontmatter?.match(
+    /^tags:\s*\r?\n((?:[ \t]+-.*(?:\r?\n|$))+)/m,
+  )?.[1];
+
+  if (!tagList) return [];
+
+  return [...tagList.matchAll(/^[ \t]+-\s*(.+?)\s*$/gm)].map(([, tag]) =>
+    tag.trim().replace(/^(['"])(.*)\1$/, "$2"),
+  );
+};
+
 const postLastmodByPath = new Map<string, string>();
+const tagPostCountByPath = new Map<string, number>();
 
 for (const filePath of getBlogFiles(BLOG_DIRECTORY)) {
   const content = readFileSync(filePath, "utf8");
@@ -61,6 +76,11 @@ for (const filePath of getBlogFiles(BLOG_DIRECTORY)) {
     .join("/")}/`.toLocaleLowerCase("en-US");
 
   postLastmodByPath.set(postPath, lastmod);
+
+  for (const tag of new Set(getFrontmatterTags(content))) {
+    const tagPath = `/tags/${slugifyStr(tag)}/`.toLocaleLowerCase("en-US");
+    tagPostCountByPath.set(tagPath, (tagPostCountByPath.get(tagPath) ?? 0) + 1);
+  }
 }
 
 // https://astro.build/config
@@ -71,7 +91,22 @@ export default defineConfig({
       extendMarkdownConfig: true,
     }),
     sitemap({
-      filter: (page) => SITE.showArchives || !page.endsWith("/archives"),
+      filter: (page) => {
+        if (!SITE.showArchives && page.endsWith("/archives")) return false;
+
+        const pathname = decodeURIComponent(
+          new URL(page).pathname,
+        ).toLocaleLowerCase("en-US");
+
+        if (pathname === "/tags/" || !pathname.startsWith("/tags/")) {
+          return true;
+        }
+
+        const tagPath = pathname.replace(/\/\d+\/$/, "/");
+        return (
+          (tagPostCountByPath.get(tagPath) ?? 0) >= SITE.minIndexableTagPosts
+        );
+      },
       serialize(item) {
         const pathname = decodeURIComponent(
           new URL(item.url).pathname,

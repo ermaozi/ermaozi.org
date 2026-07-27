@@ -8,6 +8,7 @@ export const SITE = {
   lightAndDarkMode: true,
   postPerIndex: 6,
   postPerPage: 8,
+  minIndexableTagPosts: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   showGalleries: false,

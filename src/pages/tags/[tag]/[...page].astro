@@ -36,6 +36,7 @@ const metaDescription = `浏览 Ermaozi 中与“${tagName}”相关的文章，
 <Layout
   title={`标签：${tagName}${pageSuffix} | ${SITE.title}`}
   description={metaDescription}
+  noindex={page.total < SITE.minIndexableTagPosts}
 >
   <Header />
   <Main

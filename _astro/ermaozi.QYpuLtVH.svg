@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 250" xmlns:bx="https://boxy-svg.com">
+  <g transform="matrix(1.05, 0, 0, 1.05, 18, -8)">
+    <text
+      style="fill: rgb(51, 51, 51); font-family: var(--font-cascadia-code), 'Cascadia Code', monospace; font-size: 135px; font-weight: 700; white-space: pre;"
+      x="0"
+      y="176"
+    >Ermaozi</text>
+    <text
+      style="fill: rgb(167, 90, 90); font-family: var(--font-cascadia-code), 'Cascadia Code', monospace; font-size: 78px; font-weight: 700; letter-spacing: -4px; white-space: pre;"
+      x="625"
+      y="172"
+    >.org</text>
+  </g>
+  <defs>
+    <bx:export>
+      <bx:file format="svg" href="#object-0" path="ermaozi.svg" />
+    </bx:export>
+  </defs>
+</svg>

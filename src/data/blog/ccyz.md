@@ -1,9 +1,9 @@
 ---
-title: 2026 CCYZ机场评测：15元100G高性价比IEPL专线机场推荐｜Netflix/ChatGPT解锁
+title: 2026 CCYZ机场评测：15元150G高性价比IEPL专线机场推荐｜Netflix/ChatGPT解锁
 description: >-
-  CCYZ机场怎么样？本文实测CCYZ机场速度、稳定性与流媒体解锁能力，月付仅15元享100G流量、IEPL专线+BGP中转节点，支持Netflix/Disney+/ChatGPT，附95折优惠券与套餐解析。
+  CCYZ机场怎么样？本文实测CCYZ机场速度、稳定性与流媒体解锁能力，月付仅15元享150G流量、IEPL专线+BGP中转节点，支持Netflix/Disney+/ChatGPT，附95折优惠券与套餐解析。
 pubDatetime: '2025-10-13'
-modDatetime: '2026-02-24'
+modDatetime: '2026-08-19'
 author: Ermaozi
 tags:
   - 科学上网
@@ -21,7 +21,7 @@ tags:
 >
 > 主站原文：[https://www.ermao.net/blog/ccyz/](https://www.ermao.net/blog/ccyz/)
 
-[CCYZ机场](https://xxyun.at/?code=HOWnn58c)详细评测：15元100G/月起的高性价比专线机场，BGP+IEPL 保障晚高峰稳定，支持 Netflix、Disney+、ChatGPT 等主流服务解锁，新客还可先领 1G 免费试用，再叠加 95 折优惠券省钱入手。
+[CCYZ机场](https://xxyun.at/?code=HOWnn58c)详细评测：15元150G/月起的高性价比专线机场，BGP+IEPL 保障晚高峰稳定，支持 Netflix、Disney+、ChatGPT 等主流服务解锁，新客还可先领 1G 免费试用，再叠加 95 折优惠券省钱入手。
 
 CCYZ机场官网地址：[https://xxyun.at/?code=HOWnn58c](https://xxyun.at/?code=HOWnn58c)
 
@@ -50,7 +50,7 @@ CCYZ机场官网地址：[https://xxyun.at/?code=HOWnn58c](https://xxyun.at/?cod
 | 项目 | 详情 |
 |------|------|
 | 🌐 **官网地址** | [https://xxyun.at/?code=HOWnn58c](https://xxyun.at/?code=HOWnn58c) |
-| 💰 **最便宜订阅** | 15 元 / 100G / 月（Lite 套餐） |
+| 💰 **最便宜订阅** | 15 元 / 150G / 月（Lite 套餐） |
 | 🎁 **免费试用** | 注册即赠 1G 体验流量 |
 | 🎟️ **优惠券** | 全场 95 折：`ccyz` |
 | 🌍 **线路** | BGP 中转 + IEPL 专线 |
@@ -137,7 +137,7 @@ A：可更换节点、切换协议或联系在线客服协助。
 
 ## ✅ 总结：CCYZ 是否值得入手？
 
-- 💰 入门价 15 元 100G，注册即赠 1G 体验流量并支持 95 折优惠码 `ccyz`。
+- 💰 入门价 15 元 150G，注册即赠 1G 体验流量并支持 95 折优惠码 `ccyz`。
 - 🚀 IEPL 专线 + BGP 加速，晚高峰依旧顺畅。
 - 🎬 流媒体与 AI 全解锁，影音娱乐、科研办公皆适用。
 - 🛎️ 全天候客服在线，体验更省心。

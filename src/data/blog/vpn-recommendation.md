@@ -1,6 +1,6 @@
 ---
 title: 2026年机场实测候选清单与风险核验
-description: 依据二毛主站当前数据整理 65 个机场候选项、套餐与风险状态，并提供适用于不同网络环境的 3 至 7 天验证流程、购买核验清单和故障排查入口。
+description: 依据二毛主站当前数据整理 68 个机场候选项、套餐与风险状态，并提供适用于不同网络环境的 3 至 7 天验证流程、购买核验清单和故障排查入口。
 pubDatetime: "2026-02-24"
 modDatetime: "2026-10-02"
 author: Ermaozi
@@ -40,56 +40,59 @@ tags:
 | 13 | [uuone](/posts/uuone/) | 19元 150GB/月 | 否 | 有 |
 | 14 | [随便云](/posts/随便云/) | 10元 68G/月 | 是 | 有 |
 | 15 | [Edge-X](/posts/edge-x/) | 22.8元/月起 | 是 | 无 |
-| 16 | [闪电鼠](/posts/shandianshu/) 新上 | 96元/年，60GB/30天 | 否 | 无 |
-| 17 | [全球云](/posts/全球云/) | 20元 120GB/月 | 是 | 有 |
-| 18 | [智联网络](/posts/zlwl-airport/) | 5元 500GB/月 | 是 | 无 |
-| 19 | [灯塔cloud](/posts/灯塔cloud/) | 10元 100G/月 | 否 | 无 |
-| 20 | [闪狐云](/posts/闪狐云/) | 20元 120G/月 | 是 | 无 |
-| 21 | [极连云](/posts/极连云/) | 96元 60GB/年 | 否 | 有 |
-| 22 | [唯兔云](/posts/唯兔云/) | 79.9元 45GB/年 | 否 | 有 |
-| 23 | [Danke](/posts/danke/) | 3元 88GB/月 | 否 | 有 |
-| 24 | [CyberGuard](/posts/cyberguard/) | 18元 100G/月 | 否 | 有 |
-| 25 | [TNT](/posts/tnt/) | 30元 60GB/季 | 否 | 无 |
-| 26 | [锦云](/posts/jinyun-airport/) | 6元 50GB（月付） | 是 | 有 |
-| 27 | [superbiu](/posts/superbiu/) | 14元 50GB/月 | 否 | 无 |
-| 28 | [云图高速](/posts/yuntu-airport/) 新上 | 25元 150GB/月 | 是 | 有 |
-| 29 | [梦想云](/posts/梦想云/) | 8.8元 100GB/月 | 否 | 无 |
-| 30 | [加速啦](/posts/加速啦/) | 10元 80G/月 | 是 | 有 |
-| 31 | [寰宇云](/posts/huanyuyun/) | 18元 150GB/月 | 是 | 有 |
-| 32 | [百变小樱](/posts/百变小樱/) | 15元 100G/30天 | 是 | 无 |
-| 33 | [纵云梯](/posts/纵云梯/) | 10元 60G/30天 | 是 | 无 |
-| 34 | [Runway](/posts/runway/) | 9.9元 100G/月 | 否 | 有 |
-| 35 | [二猫云](/posts/ermaoyun/) | 16元 100G/月 | 否 | 有 |
-| 36 | [白羊星](/posts/白羊星/) | 12元 100G/月 | 否 | 有 |
-| 37 | [光速云](/posts/光速云/) | 99元 59GB/年 | 否 | 有 |
-| 38 | [掌中世界](/posts/掌中世界/) | 27元 150GB/月 | 否 | 有 |
-| 39 | [山水云](/posts/山水云/) | 14.99元 100G/月 | 是 | 有 |
-| 40 | [光年梯](/posts/光年梯/) | 18元 110G/月 | 否 | 无 |
-| 41 | [瞬云](/posts/瞬云/) | 8.25元 59G/月 | 是 | 无 |
-| 42 | [秒秒云](/posts/miaomiaoyun-airport/) | 14元 128GB/月 | 是 | 有 |
-| 43 | [跨界云](/posts/kuajiecloud-airport/) | 20元 120GB/月 | 是 | 无 |
-| 44 | [Firefly](/posts/firefly-airport/) | 96元 60GB/月（年付） | 是 | 有 |
-| 45 | [浪网](/posts/wangwang-airport/) | 30元 150GB/月 | 否 | 有 |
-| 46 | [梯子云（LadderCloud）](/posts/laddercloud/) | 25元 125GB/月 | 是 | 有 |
-| 47 | [无忧链接](/posts/wuyoulink/) | 12.92元 100GB/月 | 是 | 有 |
-| 48 | [ssone](/posts/ssone/) | 15元 128GB/月 | 否 | 有 |
-| 49 | [青云梯](/posts/青云梯/) | 8 元60g/月(年付) | 否 | 无 |
-| 50 | [老头vpn](/posts/老头vpn/) | 25元 150G/月 | 否 | 无 |
-| 51 | [99吧](/posts/99吧/) | 9.9元 70GB/月 | 否 | 有 |
-| 52 | [sogo云](/posts/sogoyun/) | 20元 150G/月 | 否 | 有 |
-| 53 | [Aladdin](/posts/aladdin/) | 30元 390G/半年 | 否 | 无 |
-| 54 | [一翻云](/posts/一翻云/) | 30元 150G/月 | 否 | 有 |
-| 55 | [速界](/posts/sujie/) | 25元/月 | 否 | 无 |
-| 56 | [边缘节点](/posts/bianyuanjiedian/) | 9元/月(年付45G) | 否 | 有 |
-| 57 | [好鸭云](/posts/好鸭云/) | 12元 100G/月 | 否 | 无 |
-| 58 | [影子云](/posts/影子云/) | 18.80元 150G/月 | 是 | 有 |
-| 59 | [xxai](/posts/xxai/) | 16.9元 100G/月 | 否 | 有 |
-| 60 | [快狸](/posts/kuaili/) | 10元 30G/月 | 否 | 有 |
-| 61 | [可信云](/posts/kexinyun/) | 9元 45GB/月 | 否 | 有 |
-| 62 | [暮光加速](/posts/twilight-airport/) | 20元 120GB/月 | 是 | 有 |
-| 63 | [隐形人](/posts/invisible-airport/) | 24元 144GB/月 | 是 | 有 |
-| 64 | [灵猫网络](/posts/civetnet-airport/) | 85元 45GB/年 | 是 | 无 |
-| 65 | [GW云洞](/posts/gw-cloud-tunnel/) 新上 | 15元 100GB/月 | 是 | 有 |
+| 16 | [环球梯](/posts/huanqiuti/) 新上 | 22元120GB/月 | 是 | 有 |
+| 17 | [神行加速](/posts/shenxing/) 新上 | 96元/年，60GB/月；23元120GB/月 | 否 | 无 |
+| 18 | [榴莲云](/posts/liulianyun/) 新上 | 24元 140GB/月；96元/年，60GB/月 | 是 | 无 |
+| 19 | [闪电鼠](/posts/shandianshu/) 新上 | 96元/年，60GB/30天 | 否 | 无 |
+| 20 | [全球云](/posts/全球云/) | 20元 120GB/月 | 是 | 有 |
+| 21 | [智联网络](/posts/zlwl-airport/) | 5元 500GB/月 | 是 | 无 |
+| 22 | [灯塔cloud](/posts/灯塔cloud/) | 10元 100G/月 | 否 | 无 |
+| 23 | [闪狐云](/posts/闪狐云/) | 20元 120G/月 | 是 | 无 |
+| 24 | [极连云](/posts/极连云/) | 96元 60GB/年 | 否 | 有 |
+| 25 | [唯兔云](/posts/唯兔云/) | 79.9元 45GB/年 | 否 | 有 |
+| 26 | [Danke](/posts/danke/) | 3元 88GB/月 | 否 | 有 |
+| 27 | [CyberGuard](/posts/cyberguard/) | 18元 100G/月 | 否 | 有 |
+| 28 | [TNT](/posts/tnt/) | 30元 60GB/季 | 否 | 无 |
+| 29 | [锦云](/posts/jinyun-airport/) | 6元 50GB（月付） | 是 | 有 |
+| 30 | [superbiu](/posts/superbiu/) | 14元 50GB/月 | 否 | 无 |
+| 31 | [云图高速](/posts/yuntu-airport/) 新上 | 25元 150GB/月 | 是 | 有 |
+| 32 | [梦想云](/posts/梦想云/) | 8.8元 100GB/月 | 否 | 无 |
+| 33 | [加速啦](/posts/加速啦/) | 10元 80G/月 | 是 | 有 |
+| 34 | [寰宇云](/posts/huanyuyun/) | 18元 150GB/月 | 是 | 有 |
+| 35 | [百变小樱](/posts/百变小樱/) | 15元 100G/30天 | 是 | 无 |
+| 36 | [纵云梯](/posts/纵云梯/) | 10元 60G/30天 | 是 | 无 |
+| 37 | [Runway](/posts/runway/) | 9.9元 100G/月 | 否 | 有 |
+| 38 | [二猫云](/posts/ermaoyun/) | 16元 100G/月 | 否 | 有 |
+| 39 | [白羊星](/posts/白羊星/) | 12元 100G/月 | 否 | 有 |
+| 40 | [光速云](/posts/光速云/) | 99元 59GB/年 | 否 | 有 |
+| 41 | [掌中世界](/posts/掌中世界/) | 27元 150GB/月 | 否 | 有 |
+| 42 | [山水云](/posts/山水云/) | 14.99元 100G/月 | 是 | 有 |
+| 43 | [光年梯](/posts/光年梯/) | 18元 110G/月 | 否 | 无 |
+| 44 | [瞬云](/posts/瞬云/) | 8.25元 59G/月 | 是 | 无 |
+| 45 | [秒秒云](/posts/miaomiaoyun-airport/) | 14元 128GB/月 | 是 | 有 |
+| 46 | [跨界云](/posts/kuajiecloud-airport/) | 20元 120GB/月 | 是 | 无 |
+| 47 | [Firefly](/posts/firefly-airport/) | 96元 60GB/月（年付） | 是 | 有 |
+| 48 | [浪网](/posts/wangwang-airport/) | 30元 150GB/月 | 否 | 有 |
+| 49 | [梯子云（LadderCloud）](/posts/laddercloud/) | 25元 125GB/月 | 是 | 有 |
+| 50 | [无忧链接](/posts/wuyoulink/) | 12.92元 100GB/月 | 是 | 有 |
+| 51 | [ssone](/posts/ssone/) | 15元 128GB/月 | 否 | 有 |
+| 52 | [青云梯](/posts/青云梯/) | 8 元60g/月(年付) | 否 | 无 |
+| 53 | [老头vpn](/posts/老头vpn/) | 25元 150G/月 | 否 | 无 |
+| 54 | [99吧](/posts/99吧/) | 9.9元 70GB/月 | 否 | 有 |
+| 55 | [sogo云](/posts/sogoyun/) | 20元 150G/月 | 否 | 有 |
+| 56 | [Aladdin](/posts/aladdin/) | 30元 390G/半年 | 否 | 无 |
+| 57 | [一翻云](/posts/一翻云/) | 30元 150G/月 | 否 | 有 |
+| 58 | [速界](/posts/sujie/) | 25元/月 | 否 | 无 |
+| 59 | [边缘节点](/posts/bianyuanjiedian/) | 9元/月(年付45G) | 否 | 有 |
+| 60 | [好鸭云](/posts/好鸭云/) | 12元 100G/月 | 否 | 无 |
+| 61 | [影子云](/posts/影子云/) | 18.80元 150G/月 | 是 | 有 |
+| 62 | [xxai](/posts/xxai/) | 16.9元 100G/月 | 否 | 有 |
+| 63 | [快狸](/posts/kuaili/) | 10元 30G/月 | 否 | 有 |
+| 64 | [可信云](/posts/kexinyun/) | 9元 45GB/月 | 否 | 有 |
+| 65 | [暮光加速](/posts/twilight-airport/) | 20元 120GB/月 | 是 | 有 |
+| 66 | [隐形人](/posts/invisible-airport/) | 24元 144GB/月 | 是 | 有 |
+| 67 | [灵猫网络](/posts/civetnet-airport/) | 85元 45GB/年 | 是 | 无 |
+| 68 | [GW云洞](/posts/gw-cloud-tunnel/) 新上 | 15元 100GB/月 | 是 | 有 |
 
 > 排序用于浏览，不代表所有地区、运营商和时段都能获得相同体验。点击名称查看详情、适用人群和风险边界。
 

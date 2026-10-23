@@ -97,7 +97,11 @@
 
     /* ===== Table of Contents (modern card) ===== */
     details {
-      @apply block w-full cursor-pointer rounded-2xl border border-border/20 bg-muted/5 text-foreground backdrop-blur-sm transition-all duration-300 ease-in-out select-none hover:border-accent/25 hover:shadow-lg hover:shadow-accent/5 [&_p]:hidden [&_ul]:my-0!;
+      @apply block w-full cursor-pointer rounded-2xl border border-border/20 bg-muted/5 text-foreground backdrop-blur-sm transition-all duration-300 ease-in-out select-none hover:border-accent/25 hover:shadow-lg hover:shadow-accent/5 [&_ul]:my-0!;
+    }
+
+    details > p {
+      @apply px-4 pb-3;
     }
 
     details[open] {

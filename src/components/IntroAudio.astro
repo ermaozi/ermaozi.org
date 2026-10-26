@@ -16,7 +16,7 @@ const { src, label = "INTRO.MP3", duration = 30 } = Astro.props;
 <div
   id="intro-audio-player"
   class="intro-audio-wrap"
-  aria-label="Reproductor de audio intro"
+  aria-label="简介音频播放器"
 >
   <!-- Indicador de tipo terminal -->
   <span class="intro-audio-prefix" aria-hidden="true">$</span>
@@ -26,7 +26,7 @@ const { src, label = "INTRO.MP3", duration = 30 } = Astro.props;
   <button
     id="intro-audio-btn"
     class="intro-audio-btn"
-    aria-label="Reproducir audio de introducción"
+    aria-label="播放简介音频"
     type="button"
   >
     <!-- Ícono play -->
@@ -75,7 +75,7 @@ const { src, label = "INTRO.MP3", duration = 30 } = Astro.props;
     aria-valuenow={0}
     aria-valuemin={0}
     aria-valuemax={duration}
-    aria-label="Progreso del audio"
+    aria-label="音频播放进度"
   >
     <div class="intro-progress-bar" id="intro-progress-bar"></div>
   </div>
@@ -90,12 +90,12 @@ const { src, label = "INTRO.MP3", duration = 30 } = Astro.props;
   </span>
 
   <!-- Etiqueta del archivo -->
-  <span class="intro-label" aria-label={`Archivo: ${label}`}>{label}</span>
+  <span class="intro-label" aria-label={`文件：${label}`}>{label}</span>
 
   <!-- Elemento audio nativo (oculto) -->
   <audio id="intro-audio-el" preload="metadata" aria-hidden="true">
     <source src={src} type="audio/mpeg" />
-    Tu navegador no soporta el elemento audio.
+    你的浏览器不支持音频播放。
   </audio>
 </div>
 
@@ -314,8 +314,8 @@ const { src, label = "INTRO.MP3", duration = 30 } = Astro.props;
       btn.setAttribute(
         "aria-label",
         playing
-          ? "Pausar audio de introducción"
-          : "Reproducir audio de introducción"
+          ? "暂停简介音频"
+          : "播放简介音频"
       );
     };
 

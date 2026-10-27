@@ -2,6 +2,10 @@
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import { SITE } from "@/config";
 
+interface Props { currentPageTitle?: string; }
+const { currentPageTitle } = Astro.props;
+const sectionNames: Record<string, string> = { posts: "文章", tags: "标签", archives: "归档", search: "搜索", about: "关于" };
+
 // Build breadcrumb from current URL
 const currentUrlPath = Astro.url.pathname.replace(/\/+$/, "");
 const pathSegments = currentUrlPath.split("/").filter(s => s.trim());
@@ -25,7 +29,7 @@ const pathSegments = currentUrlPath.split("/").filter(s => s.trim());
         {/* Breadcrumb trail */}
         {pathSegments.length > 0 && (
           <nav
-            aria-label="breadcrumb"
+            aria-label="面包屑"
             class="breadcrumb-trail flex min-w-0 items-center gap-1 text-sm"
           >
             {/* Separator after Back button */}
@@ -49,7 +53,7 @@ const pathSegments = currentUrlPath.split("/").filter(s => s.trim());
             {pathSegments.map((segment, index) => (
               <>
                 <span
-                  class="breadcrumb-sep shrink-0 text-accent/40"
+                  class:list={["breadcrumb-sep shrink-0 text-accent/40", { "breadcrumb-current-sep": index + 1 === pathSegments.length }]}
                   aria-hidden="true"
                 >
                   /
@@ -57,17 +61,17 @@ const pathSegments = currentUrlPath.split("/").filter(s => s.trim());
 
                 {index + 1 === pathSegments.length || index > 0 ? (
                   <span
-                    class="breadcrumb-current truncate px-1.5 py-0.5 text-accent/90 capitalize"
+                    class="breadcrumb-current truncate px-1.5 py-0.5 text-accent/90"
                     aria-current={index + 1 === pathSegments.length ? "page" : undefined}
                   >
-                    {decodeURIComponent(segment)}
+                    {index + 1 === pathSegments.length ? (currentPageTitle ?? decodeURIComponent(segment)) : (sectionNames[segment] ?? decodeURIComponent(segment))}
                   </span>
                 ) : (
                   <a
                     href={`/${pathSegments.slice(0, index + 1).join("/")}/`}
                     class="breadcrumb-link shrink-0 rounded-md px-1.5 py-0.5 capitalize text-foreground/50 transition-colors duration-200 hover:bg-muted/10 hover:text-accent"
                   >
-                    {decodeURIComponent(segment)}
+                    {sectionNames[segment] ?? decodeURIComponent(segment)}
                   </a>
                 )}
               </>
@@ -89,9 +93,10 @@ const pathSegments = currentUrlPath.split("/").filter(s => s.trim());
     max-width: 22ch;
   }
 
-  /* Mobile: hide breadcrumb text, keep back button */
+  /* Keep the article-list link available when arriving directly on mobile. */
   @media (max-width: 639px) {
-    .breadcrumb-trail {
+    .breadcrumb-current,
+    .breadcrumb-current-sep {
       display: none;
     }
   }

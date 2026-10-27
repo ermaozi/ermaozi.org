@@ -2,7 +2,7 @@
 title: 2026年机场实测候选清单与风险核验
 description: 依据二毛主站当前数据整理 68 个机场候选项、套餐与风险状态，并提供适用于不同网络环境的 3 至 7 天验证流程、购买核验清单和故障排查入口。
 pubDatetime: "2026-02-24"
-modDatetime: "2026-10-02"
+modDatetime: '2026-10-27'
 author: Ermaozi
 featured: true
 tags:
@@ -27,7 +27,7 @@ tags:
 | ---: | --- | --- | :---: | :---: |
 | 1 | [flybit](/posts/flybit/) | 15元 128G/月 | 是 | 有 |
 | 2 | [XSUS](/posts/xsus/) | 8元 168G/30天 | 是 | 有 |
-| 3 | [xxyun](/posts/xxyun/) | 9.99元 100G/月 | 是 | 有 |
+| 3 | [xxyun](/posts/xxyun/) | 历史9.99元100G/月，现价待核 | 待核 | 历史有，现售待核 |
 | 4 | [网际快车](/posts/网际快车/) | 6.8元 20GB(不限时) | 是 | 有 |
 | 5 | [cocoduck](/posts/cocoduck/) | 15元 150G/月 | 是 | 无 |
 | 6 | [阿达西](/posts/阿达西/) | 3元 20G/月 | 否 | 有 |
@@ -93,6 +93,7 @@ tags:
 | 66 | [隐形人](/posts/invisible-airport/) | 24元 144GB/月 | 是 | 有 |
 | 67 | [灵猫网络](/posts/civetnet-airport/) | 85元 45GB/年 | 是 | 无 |
 | 68 | [GW云洞](/posts/gw-cloud-tunnel/) 新上 | 15元 100GB/月 | 是 | 有 |
+| 69 | [Lumo](/posts/lumo/) | 119元/年365GiB/年；29元/月150GiB/月（资料价） | 需核客户端版本 | 未确认 |
 
 > 排序用于浏览，不代表所有地区、运营商和时段都能获得相同体验。点击名称查看详情、适用人群和风险边界。
 

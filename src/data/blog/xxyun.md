@@ -1,172 +1,73 @@
 ---
-title: 2026 XXYUN机场评测：9.99元100G老牌BGP专线机场推荐｜Netflix/ChatGPT解锁
-description: >-
-  XXYUN机场怎么样？本文实测XXYUN机场速度、稳定性与流媒体解锁能力，月付仅9.99元享100G流量、全BGP中转+三网优化，老牌运营两年稳定，支持Netflix/Disney+/ChatGPT，附85折/9折优惠券。
+title: XXYun 加速资料笔记：旧测速图、当前优惠与订阅核对
+description: 核对 XXYun 旧截图时间与新用户9折码 xxyun，区分历史套餐和当前报价，说明测速证据、客户端兼容与购买前检查方法。
 pubDatetime: '2025-10-13'
-modDatetime: '2026-02-24'
+modDatetime: '2026-10-27'
 author: Ermaozi
 tags:
-  - 科学上网
-  - VPN
   - 机场推荐
-  - 便宜机场
   - XXYUN
-  - XXYUN机场
-  - BGP专线
-  - 高性价比机场
-  - 翻墙机场
-  - 机场评测
----
-> **内容基准与时效说明**：本页是便于检索的实测笔记版本，事实与风险状态同步自二毛主站。单一地区、运营商或时段的结果不能外推到所有用户。
->
-> 主站原文：[https://www.ermao.net/blog/xxyun/](https://www.ermao.net/blog/xxyun/)
-
-[XXYUN机场](https://www.xxyun.ai/?code=HOWnn58c)详细评测：9.99元100G/月起的高性价比 BGP 专线机场，晚高峰不限速、全流媒体解锁，附 85 折/9 折优惠券，是 2026 年值得关注的老牌稳定选择。
-
-XXYUN机场官网地址：[www.xxyun.ai](https://www.xxyun.ai/?code=HOWnn58c)
-
-
-
-## 目录
-- [🎯 XXYUN 机场概览](#overview)
-- [💳 XXYUN 套餐价格](#price)
-- [🏆 XXYUN 机场核心优势](#section-3)
-- [🔬 性能与流媒体实测](#performance)
-- [📱 客户端配置指南](#client)
-- [🎯 适用场景建议](#section-6)
-- [🔍 常见问题速览](#faq)
-- [✅ 总结：XXYUN 是否值得尝试？](#conclusion)
-- [🏆 更多机场推荐](#section-9)
-
+  - 使用笔记
 ---
 
-## 🎯 XXYUN 机场概览
+XXYun 的旧图可以看节点当时的测试结果，不能拿来证明今天的晚高峰表现。本页将**旧截图、历史套餐与当前公开优惠**分开记录，方便下单前逐项核对。2026年10月27日核到的注册配置列出新用户9折券 `xxyun`，当前套餐售价尚未登录核实。
 
-![xx云加速logo](https://image.ermao.net/images/blog/xxyun/image.png)
+<a href="https://www.xxyun.ai/?code=HOWnn58c" rel="sponsored nofollow noopener" target="_blank">查看 XXYun 当前套餐与新用户优惠</a>
 
-**[XXYUN 机场](https://www.xxyun.ai/?code=HOWnn58c)** 稳定运营两年，凭借超高性价比、全 BGP 中转与国内三网优化，在同档位机场中表现突出。官方承诺晚高峰不限速、节点持续维护，适合预算有限但追求稳定体验的用户。
+![XXYun 标志](https://image.ermao.net/images/blog/xxyun/image.png)
 
-### 📊 基本信息速览
+<span id="performance"></span>
+## 先看旧图的时间与证据范围
 
-| 项目 | 详情 |
-|------|------|
-| 🌐 **官网地址** | [https://www.xxyun.ai/?code=HOWnn58c](https://www.xxyun.ai/?code=HOWnn58c) |
-| 💰 **最便宜套餐** | 9.99 元 / 100G / 月 |
-| 🎟️ **优惠券** | 9 折券码：`xxyun` <br> 85 折券码：`xxyun85`（限新客一次） |
-| 🌍 **线路架构** | 全 BGP 中转 + 国内三网优化 |
-| 🎬 **流媒体支持** | Netflix / Disney+ / HBO / ChatGPT 全解锁 |
-| 📱 **协议支持** | Shadowsocks / V2Ray / Trojan |
-| 🛎️ **客服服务** | 7×24 小时在线响应 |
+![XXYun 历史测速原图，包含成功和失败结果](https://image.ermao.net/images/blog/xxyun/image-1.png)
 
-## 💳 XXYUN 套餐价格
+截图时间是 **2025-02-14 04:05:49 CST**，并非本次更新日期，也不是20:00–21:00的晚高峰样本。图中有成功与失败结果。单张图不足以推出24小时在线率、99.7%可用性、全流媒体解锁或长期稳定，本页不再保留这些未经支持的结论。
 
-> 套餐表由主站结构化数据统一维护，请查看[主站原文](https://www.ermao.net/blog/xxyun/)获取当前版本。
+BGP、三网优化等线路描述属于商家宣传；节点名称和速度样本不能证明线路采购合同。本站本轮没有重新测试速度或解锁情况。
 
-> 💡 **省钱技巧**：使用优惠码 `xxyun` 可享 9 折，首次下单输入优惠码 `xxyun85` 可享 85 折，建议先购月付体验再考虑长期方案。
+<span id="overview"></span><span id="section-3"></span>
+## 哪些资料是本次确认的
 
-## 🏆 XXYUN 机场核心优势
+| 信息 | 本次可确认范围 |
+| --- | --- |
+| 推广入口 | 保留用户指定的 www.xxyun.ai 入口及参数 |
+| 新用户优惠 | 公开注册配置列出 `xxyun` 新用户9折 |
+| 切换套餐 | 公开界面提醒覆盖当前套餐且不会退款 |
+| 历史优惠 | `xxyun85`、`xxyun.xyz` 当前有效性未确认 |
+| 实际价格与限制 | 未登录核价；设备数、客服时效及完整退款规则待核 |
 
-- 🧭 **老牌稳定**：连续两年无负面风评，常驻维护团队保障线路健康。
-- 🚀 **全 BGP 中转**：针对电信、联通、移动进行三网优化，跨境体验顺畅。
-- 🎬 **流媒体无压力**：Netflix、Disney+、HBO、ChatGPT 等主流服务可直接解锁。
-- 🕒 **晚高峰不限速**：高峰期仍保持流畅，适合夜间观影或远程办公。
-- 🔄 **不限设备**：支持多终端同时在线（建议合理使用，避免触发风控）。
-- 🛎️ **客服可靠**：7×24 小时在线，工单响应速度快。
+切换套餐的警告不能扩展成所有订单的退款政策。已有套餐时，应先问清剩余流量和到期日怎样处理。
 
-## 🔬 性能与流媒体实测
+<span id="price"></span>
+## 历史套餐留作比较，不作为今天报价
 
-![xx云加速机场测速](https://image.ermao.net/images/blog/xxyun/image-1.png)
+| 历史记录 | 价格 | 流量 |
+| --- | --- | --- |
+| 月付入门 | 9.99元/月 | 100G/月 |
+| 月付中档 | 19.9元/月 | 300G/月 |
+| 月付大流量 | 39.9元/月 | 1000G/月 |
+| 一次性小包 | 66.66元/一次性 | 总计500G |
+| 一次性大包 | 199元/一次性 | 总计2888G |
 
-- 📍 测试环境：广东电信 300M 宽带  
-- 🕗 测试时间：日常晚高峰 20:00-21:00  
-- ⚡ 下载：70~110 Mbps（节点不同略有浮动）  
-- 🏃 延迟：香港节点 25 ms 左右，日本节点 50~60 ms，新加坡节点 70 ms+  
-- 🎬 流媒体：Netflix/Disney+/YouTube 4K 全解锁，ChatGPT 无异常  
-- 📶 稳定性：连续运行 24 小时无掉线，在线率 99.7%  
+这些是历史记录，当前上架状态、有效期、倍率与售价均需核实。一次性支付不等于永久可用。优惠只确认新用户9折的公开提示，适用套餐、期限和叠加仍看结算页。<a href="https://www.xxyun.ai/?code=HOWnn58c" rel="sponsored nofollow noopener" target="_blank">查看 XXYun 当前套餐与新用户优惠</a>。
 
-> 📌 **提示**：速度会受本地网络、设备、节点负载影响，建议通过客户端测速挑选最佳节点。
+<span id="client"></span><span id="client-usage"></span>
+## 把订阅接入自己的设备
 
-## 📱 客户端配置指南
+先问服务商提供什么协议和订阅格式，再选支持该格式的客户端。Windows/macOS 可参考 [Clash Verge Rev 官方安装文档](https://www.clashverge.dev/install.html)，Android 参考 [Clash Meta for Android 官方发布](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)。iOS Shadowrocket 应从上架地区的 Apple 商店购买，见[香港商店](https://apps.apple.com/hk/app/shadowrocket/id932747118)，不把共享账号作为购买或更新保证。
 
-1. **注册账号**：访问[官网](https://www.xxyun.ai/?code=HOWnn58c)填写邮箱注册并验证。  
-2. **购买套餐**：挑选合适流量包，结算时使用券码 `xxyun85` 享 85 折或 `xxyun` 享 9 折。  
-3. **复制订阅**：在用户中心获取 Clash / Shadowrocket / V2Ray 等订阅链接。  
-4. **导入客户端**：按设备选择客户端粘贴订阅，一键同步节点。  
-5. **测速优选**：启用自动测速或手动测试，锁定最快节点。  
+购买前先确认兼容；取得订阅后导入客户端、更新节点、启用适当的代理方式。依次测试普通网页、自己常用的应用及目标地区，不要只看一次延迟数字。保留错误信息和客户端版本，遇到问题先查公告、更新订阅、换节点，再联系服务商。
 
-推荐客户端：
+<span id="section-6"></span><span id="faq"></span>
+## 如何留下有用的自测记录
 
-- 📱 Android：Clash for Android、V2rayNG  
-- 🍎 iOS：Shadowrocket、小火箭、Quantumult X  
-- 🖥️ Windows：Clash for Windows、V2rayN  
-- 🍎 macOS：ClashX、Clash for Mac  
+记录日期、运营商、宽带、客户端版本、目标应用和节点，再在自己常用的时段重复观察。分享时遮去订阅链接、账号及节点凭据。用同一组条件比较变化，比“某个节点瞬时很快”更有参考价值。
 
-详细教程：
+如果需要明确的设备上限、退款规则或工作连续性，先补齐这些信息，不能用旧图代替。购买与升级条件可对照本站[购买前检查表](/posts/jichang-buying-checklist/)。
 
-- 📱 [Clash for Android 使用教程](https://www.ermao.net/article/eh8f4n86/)  
-- 🖥️ [Clash for Windows 配置指南](https://www.ermao.net/article/0gematwc/)  
-- 🍎 [Clash for iOS 上手教程](https://www.ermao.net/article/z747kgjd/)
+<span id="conclusion"></span><span id="section-9"></span>
+## 来源与下一步
 
-## 🎯 适用场景建议
+本页根据[主站10月27日核验记录](https://www.ermao.net/blog/xxyun/)及保留的历史图整理，没有新增独立测速。适合把 XXYun 列为待体验候选，不适合据此承诺长期服务。<a href="https://www.xxyun.ai/?code=HOWnn58c" rel="sponsored nofollow noopener" target="_blank">查看 XXYun 当前套餐与新用户优惠</a>。
 
-| 场景 | 推荐节点 | 使用建议 |
-|------|----------|----------|
-| 🎬 影音追剧 | 香港 / 台湾 / 日本 | 解锁 4K HDR 流媒体，晚高峰无卡顿 |
-| 🤖 AI 工具 | 美国 / 新加坡 | ChatGPT、Claude、Midjourney 响应稳定 |
-| 💼 远程办公 | 香港 / 新加坡 | 企业 SaaS、视频会议低延迟 |
-| 🎮 游戏加速 | 日本 / 韩国 | 降低外服游戏延迟，体验更平滑 |
-| 📰 社交资讯 | 香港 / 台湾 | 快速访问 Twitter、Facebook、Instagram |
-
-## 🔍 常见问题速览
-
-**Q：XXYUN 是否支持退款？**  
-A：虚拟服务通常不支持退款，建议先购买初级套餐测试。
-
-**Q：可以多人共用吗？**  
-A：账号理论无限设备，但建议家庭内部自用，避免同时过多在线导致风控。
-
-**Q：速度不理想怎么办？**  
-A：换节点、切换协议或重新导入订阅；仍有问题可联系在线客服。
-
-## 下单前提醒
-
-- 不要只看宣传页里的最低价。真正下单前，再到支付页核对一次流量、倍率、设备数、重置周期和优惠是否生效。
-- 第一次尽量买小档或月付，用自己的网络跑几天。晚高峰、ChatGPT、YouTube/Netflix、常用地区都测过，再考虑要不要买更长周期。
-- 如果这条线路要用于工作、直播、店铺或账号运营，最好同时准备备用机场。节点维护、临时拥塞和策略调整都很常见，别把重要场景压在一条线上。
-
-## ✅ 总结：XXYUN 是否值得尝试？
-
-- 💰 **价格亲民**：9.99 元 100G 入门价，搭配 85 折或 9 折券更划算。  
-- 🚀 **线路靠谱**：全 BGP 中转 + 三网优化，晚高峰仍然稳定。  
-- 🎬 **解锁全面**：流媒体、AI 工具全覆盖，影音办公皆宜。  
-- 🛡️ **服务稳**：老牌运营两年，客服在线响应快。
-
-如果你正在寻找一款预算友好且稳定的专线机场，**XXYUN** 无疑值得列入 2026 年必试清单。  
-👉 **立即体验**：[前往 XXYUN 官网下单](https://www.xxyun.ai/?code=HOWnn58c)，记得使用优惠码 `xxyun85` 享受 85 折或 `xxyun` 享受 9 折！
-
-## 🏆 更多机场推荐
-- 🌟 [2026年最新机场推荐汇总](https://www.ermao.net/posts/vpn/)
-- 💰 [热门便宜机场推荐](https://www.ermao.net/airport/)
-
----
-
-> **免责声明**
->
-> ：本文仅用于技术学习交流，请遵守当地法律法规，合理合规使用相关服务。
-## 📱 客户端下载与使用教程
-
-为方便用户快速上手，我们整理了详细的各平台客户端使用教程：
-
-| 平台 | 推荐客户端 | 详细教程 |
-| :--- | :--- | :--- |
-| **Android** | Clash for Android | [安卓 Clash 使用教程](https://www.ermao.net/article/eh8f4n86/) |
-| **iOS** | Shadowrocket | [小火箭(Shadowrocket)使用教程](https://www.ermao.net/article/z747kgjd/) |
-| **Windows** | Clash Verge Rev | [Windows Clash 安装教程](https://www.ermao.net/article/0gematwc/) |
-| **macOS** | ClashX / Verge | [Mac Clash 使用教程](https://www.ermao.net/article/0gematwc/) |
-
-## 信息来源、风险与更新说明
-
-- 本页事实基准来自[二毛主站原文](https://www.ermao.net/blog/xxyun/)，同步时保留主站的更新时间与风险结论。
-- 服务商宣传不等于独立验证；“专线、解锁、不限速”等信息如无测试环境说明，应理解为官方标称或有限样本。
-- 价格、流量、节点和可用性可能随时变化。首次购买建议选择短周期或小流量档，并保留订单与客服记录。
-- 本页可能含推广参数，站点可能获得佣金，但这不构成稳定性或存续保证。
+还可阅读 [Lumo 截图与兼容性笔记](/posts/lumo/)或返回[机场候选清单](/posts/vpn-recommendation/)。推广入口可能产生佣金，不改变以上证据边界。

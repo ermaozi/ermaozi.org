@@ -34,7 +34,9 @@ const {
   noindex,
 } = post.data;
 
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
+const tocHeadings = headings.filter(({ depth }) => depth === 2 || depth === 3);
+const showToc = headings.filter(({ depth }) => depth === 2).length >= 3;
 
 let ogImageUrl: string | undefined;
 
@@ -180,6 +182,30 @@ const nextPost =
 
       </div>
     </header>
+
+    {
+      showToc && (
+        <details class="mb-8 rounded-xl border border-border/30 bg-muted/5 px-5 py-4" data-pagefind-ignore>
+          <summary class="cursor-pointer rounded text-base font-semibold text-accent focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">
+            本文目录
+          </summary>
+          <nav aria-label="文章目录" class="mt-3">
+            <ul class="space-y-1 text-sm leading-relaxed">
+              {tocHeadings.map(({ depth, slug, text }) => (
+                <li class:list={{ "pl-4": depth === 3 }}>
+                  <a
+                    href={`#${slug}`}
+                    class="block rounded py-1.5 break-words hover:text-accent hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                  >
+                    {text}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </details>
+      )
+    }
 
     <article
       id="article"

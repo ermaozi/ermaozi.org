@@ -42,7 +42,7 @@ tags:
 | 15 | [Edge-X](/posts/edge-x/) | 22.8元/月起 | 是 | 无 |
 | 16 | [环球梯](/posts/huanqiuti/) 新上 | 22元120GB/月 | 是 | 有 |
 | 17 | [神行加速](/posts/shenxing/) 新上 | 96元/年，60GB/月；23元120GB/月 | 否 | 无 |
-| 18 | [榴莲云](/posts/liulianyun/) 新上 | 24元 140GB/月；96元/年，60GB/月 | 是 | 无 |
+| 18 | [榴莲云](/posts/liulianyun/) 新上 | 24元 140GB/月；96元/年，60GB/月 | 是 | 有 |
 | 19 | [闪电鼠](/posts/shandianshu/) 新上 | 96元/年，60GB/30天 | 否 | 无 |
 | 20 | [全球云](/posts/全球云/) | 20元 120GB/月 | 是 | 有 |
 | 21 | [智联网络](/posts/zlwl-airport/) | 5元 500GB/月 | 是 | 无 |

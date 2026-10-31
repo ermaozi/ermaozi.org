@@ -9,6 +9,7 @@ import ShareLinks from "@/components/ShareLinks.astro";
 import BackButton from "@/components/BackButton.astro";
 import BackToTopButton from "@/components/BackToTopButton.astro";
 import GalleryEmbed from "@/components/GalleryEmbed.astro";
+import AirportReadingPath from "@/components/AirportReadingPath.astro";
 import { getPath } from "@/utils/getPath";
 import { slugifyStr } from "@/utils/slugify";
 import { SITE } from "@/config";
@@ -213,6 +214,8 @@ const nextPost =
     >
       <Content components={{ GalleryEmbed }} />
     </article>
+
+    <AirportReadingPath {post} {posts} />
 
     <!-- ═══════ Post footer section ═══════ -->
     <!-- ═══════ Post footer section ═══════ -->

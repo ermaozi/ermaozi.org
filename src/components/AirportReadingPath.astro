@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { getPath } from "@/utils/getPath";
+import { airportReadingSteps } from "@/utils/airportReadingPath";
+
+interface Props {
+  post: CollectionEntry<"blog">;
+  posts: CollectionEntry<"blog">[];
+}
+const { post, posts } = Astro.props;
+const recommendation = posts.find(entry => getPath(entry.id, entry.filePath) === "/posts/vpn-recommendation/");
+const steps = post.data.draft || post.data.noindex
+  ? []
+  : airportReadingSteps(getPath(post.id, post.filePath), recommendation?.body ?? "");
+---
+
+{steps.length > 0 && (
+  <nav aria-labelledby="airport-reading-path" data-airport-reading-path data-pagefind-ignore
+    class="mt-10 rounded-xl border border-border/30 bg-muted/5 p-5">
+    <h2 id="airport-reading-path" class="text-lg font-semibold">接下来，你想完成哪一步？</h2>
+    <ul class="mt-4 grid gap-3 sm:grid-cols-2">
+      {steps.map(step => (
+        <li>
+          <a href={step.href}
+            class="block h-full rounded-lg border border-border/25 p-4 hover:border-accent/50 hover:bg-accent/5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
+            <span class="font-semibold text-accent underline underline-offset-4">{step.title}</span>
+            <span class="mt-2 block text-sm leading-relaxed text-foreground/80">{step.description}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+)}

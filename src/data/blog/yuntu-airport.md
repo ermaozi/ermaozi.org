@@ -85,7 +85,7 @@ tags:
 
 ## 套餐记录
 
-官方购买入口：[注册并查看云图高速套餐](https://vip.ytjcok.org/#/register?code=8YGrHaR5)
+官方购买入口：[注册并查看云图高速套餐](https://super.yuntujc.cc/#/register?code=8YGrHaR5)
 
 ![云图高速机场 Logo](https://image.ermao.net/images/blog/yuntu-airport/20260808_073657-89dffd.png)
 
@@ -93,9 +93,9 @@ tags:
 
 | 套餐 | 价格   | 流量     | 验证用途                 | 购买                                                        |
 | ---- | ------ | -------- | ------------------------ | ----------------------------------------------------------- |
-| 岚图 | ¥25/月 | 150GB/月 | 首轮复测                 | [立即购买](https://vip.ytjcok.org/#/register?code=8YGrHaR5) |
-| 梦图 | ¥49/月 | 300GB/月 | 需要更多测试流量         | [立即购买](https://vip.ytjcok.org/#/register?code=8YGrHaR5) |
-| 星图 | ¥99/月 | 600GB/月 | 已确认线路后的大流量使用 | [立即购买](https://vip.ytjcok.org/#/register?code=8YGrHaR5) |
+| 岚图 | ¥25/月 | 150GB/月 | 首轮复测                 | [立即购买](https://super.yuntujc.cc/#/register?code=8YGrHaR5) |
+| 梦图 | ¥49/月 | 300GB/月 | 需要更多测试流量         | [立即购买](https://super.yuntujc.cc/#/register?code=8YGrHaR5) |
+| 星图 | ¥99/月 | 600GB/月 | 已确认线路后的大流量使用 | [立即购买](https://super.yuntujc.cc/#/register?code=8YGrHaR5) |
 
 套餐页出现更长周期选项，但提交资料没有对应结算金额，本页不推算。
 
@@ -103,8 +103,8 @@ tags:
 
 | 套餐                  | 一次性价格  | 总流量 | 验证提醒           | 购买                                                        |
 | --------------------- | ----------- | ------ | ------------------ | ----------------------------------------------------------- |
-| 限时 50GB 不限时流量  | ¥78/一次性  | 50GB   | 确认账户有效期     | [立即购买](https://vip.ytjcok.org/#/register?code=8YGrHaR5) |
-| 限时 100GB 不限时流量 | ¥119/一次性 | 100GB  | 确认停运与退款规则 | [立即购买](https://vip.ytjcok.org/#/register?code=8YGrHaR5) |
+| 限时 50GB 不限时流量  | ¥78/一次性  | 50GB   | 确认账户有效期     | [立即购买](https://super.yuntujc.cc/#/register?code=8YGrHaR5) |
+| 限时 100GB 不限时流量 | ¥119/一次性 | 100GB  | 确认停运与退款规则 | [立即购买](https://super.yuntujc.cc/#/register?code=8YGrHaR5) |
 
 服务商称运营约 1 周时，月付小档比一次性预付更适合作为首轮实验。所谓“不限时”不能解决服务主体存续风险。
 
@@ -140,7 +140,7 @@ tags:
 
 ## 结论
 
-现有资料能确认云图高速的套餐、5 台设备标示、1 倍倍率宣传和一次服务商测试样本，但不能确认长期稳定性。最小可复测路径是[购买 25 元月付档](https://vip.ytjcok.org/#/register?code=8YGrHaR5)，记录完整环境并连续观察 3 至 7 天。
+现有资料能确认云图高速的套餐、5 台设备标示、1 倍倍率宣传和一次服务商测试样本，但不能确认长期稳定性。最小可复测路径是[购买 25 元月付档](https://super.yuntujc.cc/#/register?code=8YGrHaR5)，记录完整环境并连续观察 3 至 7 天。
 
 ## 信息来源与更新边界
 

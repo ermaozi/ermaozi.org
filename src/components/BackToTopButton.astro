@@ -4,6 +4,8 @@ import IconArrowNarrowUp from "@/assets/icons/IconArrowNarrowUp.svg";
 
 <div
   id="btt-btn-container"
+  hidden
+  aria-hidden="true"
   class:list={[
     "fixed end-4 bottom-8 z-50",
     "md:end-8 md:bottom-10",
@@ -12,6 +14,9 @@ import IconArrowNarrowUp from "@/assets/icons/IconArrowNarrowUp.svg";
 >
   <button
     data-button="back-to-top"
+    type="button"
+    aria-label="返回顶部"
+    disabled
     class:list={[
       "group relative flex flex-col items-center justify-center gap-0.5",
       "size-14 rounded-full",
@@ -43,56 +48,61 @@ import IconArrowNarrowUp from "@/assets/icons/IconArrowNarrowUp.svg";
 </div>
 
 <script is:inline data-astro-rerun>
-  /** Scrolls the document to the top when
-   * the "Back to Top" button is clicked. */
-  function backToTop() {
-    const rootElement = document.documentElement;
-    const btnContainer = document.querySelector("#btt-btn-container");
-    const backToTopBtn = document.querySelector("[data-button='back-to-top']");
-    const progressIndicator = document.querySelector("#progress-indicator");
+  (() => {
+    window.__cleanupBackToTop?.();
+    const root = document.documentElement;
+    const container = document.querySelector("#btt-btn-container");
+    const button = container?.querySelector("[data-button='back-to-top']");
+    const progress = container?.querySelector("#progress-indicator");
+    if (!container || !button || !progress) return;
 
-    if (!rootElement || !btnContainer || !backToTopBtn || !progressIndicator)
-      return;
-
-    // Attach click event handler for back-to-top button
-    backToTopBtn.addEventListener("click", () => {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    });
-
-    // Handle button visibility according to scroll position
-    let lastVisible = null;
-    function handleScroll() {
-      const scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
-      const scrollTop = rootElement.scrollTop;
-      const scrollPercent = Math.floor((scrollTop / scrollTotal) * 100);
-
-      progressIndicator.style.setProperty(
-        "background-image",
-        `conic-gradient(var(--accent), var(--accent) ${scrollPercent}%, transparent ${scrollPercent}%)`
-      );
-
-      const isVisible = scrollTop / scrollTotal > 0.2;
-
-      if (isVisible !== lastVisible) {
-        btnContainer.classList.toggle("opacity-100", isVisible);
-        btnContainer.classList.toggle("translate-y-0", isVisible);
-        btnContainer.classList.toggle("opacity-0", !isVisible);
-        btnContainer.classList.toggle("translate-y-14", !isVisible);
-        lastVisible = isVisible;
+    const controller = new AbortController();
+    const options = { signal: controller.signal };
+    let frame = 0;
+    const update = () => {
+      const total = Math.max(0, root.scrollHeight - root.clientHeight);
+      const ratio = total > 0 ? Math.min(1, Math.max(0, root.scrollTop / total)) : 0;
+      const percent = Math.floor(ratio * 100);
+      const visible = ratio > 0.2;
+      container.hidden = !visible;
+      container.setAttribute("aria-hidden", String(!visible));
+      button.disabled = !visible;
+      container.classList.toggle("opacity-100", visible);
+      container.classList.toggle("translate-y-0", visible);
+      container.classList.toggle("opacity-0", !visible);
+      container.classList.toggle("translate-y-5", !visible);
+      progress.style.setProperty("background-image",
+        `conic-gradient(var(--accent), var(--accent) ${percent}%, transparent ${percent}%)`);
+    };
+    const schedule = () => {
+      if (!frame) frame = requestAnimationFrame(() => { frame = 0; update(); });
+    };
+    button.addEventListener("click", () => {
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+      const target = document.querySelector("main");
+      if (target) {
+        const previous = target.getAttribute("tabindex");
+        target.setAttribute("tabindex", "-1");
+        target.focus({ preventScroll: true });
+        target.addEventListener("blur", () => {
+          if (previous === null) target.removeAttribute("tabindex");
+          else target.setAttribute("tabindex", previous);
+        }, { ...options, once: true });
       }
-    }
-
-    let ticking = false;
-    document.addEventListener("scroll", () => {
-      if (!ticking) {
-        window.requestAnimationFrame(() => {
-          handleScroll();
-          ticking = false;
-        });
-        ticking = true;
-      }
-    });
-  }
-  backToTop();
+      update();
+    }, options);
+    document.addEventListener("scroll", schedule, { ...options, passive: true });
+    window.addEventListener("resize", schedule, options);
+    window.addEventListener("pageshow", schedule, options);
+    document.addEventListener("astro:page-load", schedule, options);
+    const cleanup = () => {
+      controller.abort();
+      cancelAnimationFrame(frame);
+      if (window.__cleanupBackToTop === cleanup) delete window.__cleanupBackToTop;
+    };
+    window.__cleanupBackToTop = cleanup;
+    document.addEventListener("astro:before-swap", cleanup, { ...options, once: true });
+    update();
+    schedule();
+  })();
 </script>

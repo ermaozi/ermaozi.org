@@ -30,7 +30,7 @@ tags:
 >
 > :::
 > 
-> 在选择机场时，推荐选择一些老牌机场（如[大哥云](https://ermao.dgywzc.com/#/register?code=peAVAa8D)），这样可以有效减少跑路的风险。
+> 在选择机场时，推荐选择一些老牌机场（如[大哥云](https://ermao.666glc.com/#/register?code=peAVAa8D)），这样可以有效减少跑路的风险。
 > 
 > 
 > ::: tip 避坑监控牌
